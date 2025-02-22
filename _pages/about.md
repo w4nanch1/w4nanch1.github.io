@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 ![my_img](/images/myimg.jpg){: .align-right width="300px"}
-🎓 I am currently a first-year graduate student in Computer Engineering at **Northwestern University**, focusing on Computer Vision, Vision-Language Models, and Embodied Agents. Previously, I worked in the Machine Vision and Robotics Laboratory mentored by [Prof. Kechen Song](http://faculty.neu.edu.cn/songkc/en/index.htm) at **Northeastern University**, where I obtained my bachelor's degree in Intelligent Manufacturing Engineering.  
+🎓 I am currently a first-year graduate student in Computer Engineering at **Northwestern University**. Previously, I worked in the Machine Vision and Robotics Laboratory mentored by [Prof. Kechen Song](http://faculty.neu.edu.cn/songkc/en/index.htm) at **Northeastern University**, where I obtained my bachelor's degree in Intelligent Manufacturing Engineering.  
 
-🦾 I am now an intern at the MLL's Lab, under the supervision of [Prof. Manling Li](https://limanling.github.io/). Meanwhile, I am also exploring Ph.D. opportunities.
+🦾 I am now an intern at the [Prof. Manling Li's Lab](https://limanling.github.io/) focusing on Vision-Language-Action Models and Embodied Agents. Meanwhile, I am also exploring Ph.D. opportunities.
 
 🥳News
 ======
