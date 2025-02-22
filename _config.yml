@@ -24,8 +24,8 @@ author:
   # Biographic information
   avatar           : "myface1.jpg"
   name             : "Chi Wan"
-  pronouns         : "he/him" 
-  bio              : "Computer Vision, Large Language Models, Embodied Agents, and World Model"
+  pronouns         : # "he/him" 
+  bio              : "<em>Oh, captain, my captain!</em>"
   location         : "633 Clark St, Evanston, IL 60208"
   employer         : "Northwestern University"
   uri              : # URL
