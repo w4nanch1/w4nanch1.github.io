@@ -22,7 +22,7 @@ repository               : "w4nanch1/w4nanch1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "myface2.jpg"
+  avatar           : "myface2.png"
   name             : "Chi Wan 万驰"
   pronouns         : # "he/him" 
   bio              : "<em>O Captain! my Captain!</em>"

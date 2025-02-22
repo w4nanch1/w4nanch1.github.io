@@ -14,7 +14,7 @@ redirect_from:
 
 🥳News
 ======
-[2024-12] I joined the MLL Lab, working with [Kangrui Wang](https://jameskrw.github.io/).  
+[2024-12] I joined the MLL's Lab, working with [Kangrui Wang](https://jameskrw.github.io/).  
 [2024-09] I joined Northwestern University.
 
 🤓Hobbies
