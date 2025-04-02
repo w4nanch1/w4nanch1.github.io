@@ -14,7 +14,7 @@ redirect_from:
 
 🥳News
 ======
-[2025-04] UniAorld: A unified framework of World Model and Agent Policy. (Coming soon~)
+[2025-04] UniAorld: A unified framework of World Model and Agent Policy. (Coming soon~)  
 [2025-03] We present [VAGEN](https://github.com/RAGEN-AI/VAGEN), training VLM agents with multi-turn reinforcement learning.  
 [2024-12] I joined the MLL's Lab, working with [Kangrui Wang](https://jameskrw.github.io/).  
 [2024-09] I joined Northwestern University.
