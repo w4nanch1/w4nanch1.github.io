@@ -1,412 +1,530 @@
-# Academic Homepage Modernism
+# Alexander Morgan's Academic Portfolio - Environmental Engineering & Renewable Energy
 
-A modern, responsive academic personal website template with clean design and JSON-powered dynamic content loading. This template is perfect for researchers, professors, and PhD students looking to showcase their academic achievements.
+A modern, responsive academic personal website showcasing expertise in environmental engineering and renewable energy research. This website is designed for researchers, professors, and PhD students specializing in environmental sustainability, renewable energy systems, carbon capture, and water treatment innovations.
 
+![Website Preview](assets/profile.jpg)
 
 ## Features
 
-- 📱 Fully responsive design that works seamlessly on all devices
-  - Optimized mobile navigation with smooth horizontal scrolling
+- 📱 **Fully Responsive Design**: Adapts seamlessly to all devices from desktops to mobile phones
+  - Mobile-optimized navigation with smooth horizontal scrolling
   - Smart active link centering and visual scroll indicators
   - Adaptive layout for various screen sizes
-- 🎨 Clean, modern UI with intuitive navigation
-- 📊 JSON-powered content for easy updates (profile, publications, and news)
-- 🔍 Publications section with filtering capability (All/Preprints/Accepted/First Author)
-- 📰 News section with "View All" capability 
-- 🌟 Interactive elements with smooth transitions
-- 🔗 Social media and contact integration
+- 🌱 **Environmental Engineering Focus**: Specifically designed for showcasing research in sustainable technologies
+- 🔋 **Renewable Energy Research Portfolio**: Organized structure for presenting work on solar energy, microgrids, carbon capture, and water treatment
+- 📊 **Dynamic Content**: JSON-powered content management for easy updates without HTML editing
+- 🔍 **Publication Management**: 
+  - Filtering system (All/Preprints/Accepted/First Author)
+  - Clearly organized by research area with visual cues
+  - Support for equal contribution notation and conference presentation highlights
+- 📰 **Research News Section**: Showcase latest accomplishments, grants, and publications
+- 🏆 **Honors & Awards Display**: Highlight recognition of research excellence
+- 🤝 **Service & Teaching Section**: Document academic service and teaching contributions
 
 ## Table of Contents
 
-1. [Getting Started](#getting-started)
-2. [Project Structure](#project-structure)
-3. [JSON Data Structure](#json-data-structure)
-4. [Customization Guide](#customization-guide)
-   - [Basic Information](#basic-information)
-   - [Profile Photo](#profile-photo)
-   - [Social Media & Contact Links](#social-media--contact-links)
-   - [Education](#education)
-   - [Research Interests](#research-interests)
-   - [Publications](#publications)
-   - [News](#news)
-   - [Honors & Awards](#honors--awards)
-   - [Services](#services)
-5. [Advanced Customization](#advanced-customization)
-   - [Mobile Optimization](#mobile-optimization)
-   - [Color Scheme](#color-scheme)
-   - [Font Changes](#font-changes)
-   - [Section Ordering](#section-ordering)
-6. [Deployment](#deployment)
-7. [License](#license)
+1. [Project Overview](#project-overview)
+2. [Site Structure](#site-structure)
+3. [Getting Started](#getting-started)
+4. [Content Management](#content-management)
+   - [Data Files Structure](#data-files-structure)
+   - [Profile Information](#profile-information)
+   - [Research Publications](#research-publications)
+   - [News & Updates](#news--updates)
+5. [Customization Guide](#customization-guide)
+   - [Updating Personal Information](#updating-personal-information)
+   - [Customizing Research Areas](#customizing-research-areas)
+   - [Managing Publications](#managing-publications)
+   - [Updating Education History](#updating-education-history)
+   - [Modifying Honors & Awards](#modifying-honors--awards)
+   - [Managing Professional Services](#managing-professional-services)
+   - [Updating Contact Information](#updating-contact-information)
+6. [Advanced Customization](#advanced-customization)
+   - [Changing Theme Colors](#changing-theme-colors)
+   - [Updating Font Styles](#updating-font-styles)
+   - [Adding New Sections](#adding-new-sections)
+   - [Modifying Layout](#modifying-layout)
+7. [Mobile Optimization](#mobile-optimization)
+8. [Deployment Options](#deployment-options)
+9. [Browser Compatibility](#browser-compatibility)
+10. [License & Attribution](#license--attribution)
+
+## Project Overview
+
+This academic portfolio website is designed to effectively showcase environmental engineering and renewable energy research. The site provides a clean, professional presentation of academic credentials, research publications, and achievements focused on sustainability technologies.
+
+Key areas featured include:
+- Sustainable materials for renewable energy
+- Water purification and treatment technologies
+- Carbon capture and sequestration methods
+- Integrated renewable energy management systems
+- Environmental sustainability in developing regions
+- Microgrid optimization for remote communities
+- Waste management and circular economy approaches
+- Smart irrigation and water conservation
+
+## Site Structure
+
+```
+├── index.html                # Main homepage file
+├── styles.css                # CSS styling
+├── script.js                 # JavaScript functionality
+├── assets/                   # Images and other static assets
+│   ├── profile.jpg           # Profile photo
+│   ├── logo1.jpeg            # University logo (West Coast University)
+│   ├── logo2.png             # University logo (Northern Technical University)
+│   ├── dblp.svg              # DBLP icon
+│   └── wechat.jpg            # Social media QR code
+├── data/                     # JSON data files for dynamic content
+│   ├── news.json             # Research news and updates
+│   ├── publications.json     # Research publications database
+│   └── profile-info.json     # Personal and contact information
+└── pages/                    # Additional pages
+    └── all-news.html         # Complete archive of research news
+```
 
 ## Getting Started
 
-To use this template for your own academic website:
+To adapt this website for your own academic portfolio:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/academic-homepage.git
+git clone https://github.com/dl-m9/academic-homepage-modernism.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd academic-homepage
+cd academic-homepage-modernism
 ```
 
-3. Open the files in your preferred code editor and begin customizing according to the guide below.
+3. Customize the JSON data files in the `data/` directory to update your information:
+   - `profile-info.json`: Personal details and social media links
+   - `publications.json`: Your research publications
+   - `news.json`: News and updates about your research
 
-4. Test your changes by opening `index.html` in a web browser.
+4. Replace the image files in the `assets/` directory with your own:
+   - Update `profile.jpg` with your professional photo
+   - Replace university logos and other images as needed
 
-## Project Structure
+5. Test your changes by opening `index.html` in a web browser.
 
-```
-├── index.html              # Main homepage file
-├── styles.css              # CSS styling
-├── script.js               # JavaScript functionality
-├── assets/                 # Images and other static assets
-│   ├── profile.jpg         # Your profile photo
-│   ├── cityu-logo.jpeg     # University logo examples
-│   ├── bit-logo.png        # University logo examples
-│   ├── dblp.svg            # DBLP icon
-│   └── wechat.jpg          # WeChat QR code
-├── data/                   # JSON data files
-│   ├── news.json           # News items data
-│   ├── publications.json   # Publications data
-│   └── profile-info.json   # Basic profile information
-└── pages/                  # Additional pages
-    └── all-news.html       # Page displaying all news items
-```
+## Content Management
 
-## JSON Data Structure
+### Data Files Structure
 
-This template uses JSON files to store data, making it easier to update content without modifying HTML code. There are three main JSON files:
+This website uses JSON files to manage content, allowing easy updates without editing HTML code.
 
-### 1. `data/profile-info.json`
+### Profile Information
 
-Contains personal information, social media links, and profile image path:
+The `data/profile-info.json` file contains personal information, contact details, and social media links:
 
 ```json
 {
-  "name": "YOUR NAME",
-  "subtitle": "PhD@CS, YOUR UNIVERSITY",
+  "name": "ALEXANDER \"ALEX\" MORGAN 🍀",
+  "subtitle": "PhD@CS, WCU &nbsp;&nbsp; BEng@EE, NTU<br><a href=\"#\">Center for AI and Smart Systems</a><br><a href=\"#\">Autonomous Systems and Connected Technologies Lab (ASCT)</a>",
   "socialLinks": [
     {
       "type": "email",
-      "url": "mailto:your.email@example.com",
+      "url": "mailto:alex.morgan@example.com",
       "icon": "<i class=\"fas fa-envelope\"></i>"
     },
-    {
-      "type": "linkedin",
-      "url": "https://www.linkedin.com/in/your-profile/",
-      "icon": "<i class=\"fab fa-linkedin\"></i>",
-      "target": "_blank"
-    }
-    // Add more social links as needed
+    // Additional social links...
   ],
   "profileImage": "assets/profile.jpg"
 }
 ```
 
-### 2. `data/publications.json`
+Key components to customize:
+- `name`: Your full name (supports HTML formatting)
+- `subtitle`: Your credentials, affiliations, and laboratories (supports HTML)
+- `socialLinks`: Array of social media and professional profiles
+- `profileImage`: Path to your profile photo
 
-Stores all publications with metadata for filtering:
+### Research Publications
+
+The `data/publications.json` file organizes your publications with metadata for filtering:
 
 ```json
 [
   {
     "number": 1,
-    "title": "Your Publication Title",
-    "authors": "<strong><u>Your Name</u></strong>, Co-author One, Co-author Two",
-    "type": "preprint",  // or "accepted"
-    "isFirstAuthor": true,  // or false
-    "venue": "Conference or Journal Name",  // optional, for accepted papers
+    "title": "Sustainable Materials for High-Efficiency Solar Energy Storage Systems",
+    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Jennifer Lee, Michael Taylor, Sarah Johnson, David Chen, Thomas Wright, Robert Williams",
+    "type": "preprint",
+    "isFirstAuthor": true,
     "tags": [
       {
-        "text": "Tag Label",
-        "class": "tag-class",
-        "link": "https://link-to-paper.com"  // optional
+        "text": "Preprint",
+        "class": "preprint-tag"
+      },
+      {
+        "text": "PDF",
+        "class": "code-tag",
+        "link": "#"
       }
     ]
-  }
-  // Add more publications here
+  },
+  // Additional publications...
 ]
 ```
 
-### 3. `data/news.json`
+For each publication, you can specify:
+- `number`: Sequential identifier for ordering
+- `title`: Publication title
+- `authors`: Author list with HTML formatting to highlight your name
+- `type`: "preprint" or "accepted"
+- `isFirstAuthor`: Boolean indicating if you're the first author
+- `venue`: For accepted papers, the conference or journal name
+- `tags`: Links to resources (PDF, code, blog posts) with appropriate styling classes
 
-Contains news and updates in chronological order:
+### News & Updates
+
+The `data/news.json` file contains research updates, achievements, and announcements:
 
 ```json
 [
   {
-    "date": "Month YYYY",
-    "title": "News Title",
-    "content": "News content description",
+    "date": "Mar. 2025",
+    "title": "New Project Launched: <a href='#'>Sustainable Energy Solutions</a>",
+    "content": "🔥🔥🔥 We launched a new research initiative on Sustainable Energy Solutions! This project will focus on developing innovative approaches to renewable energy storage and distribution for urban environments. Join our open-source collaboration!",
     "links": [
       {
-        "text": "Link Text",
-        "url": "https://link-url.com"
+        "text": "Github Repository",
+        "url": "#"
       }
     ]
-  }
-  // Add more news items here
+  },
+  // Additional news items...
 ]
 ```
+
+Each news item includes:
+- `date`: When the news occurred (Month YYYY format)
+- `title`: Headline for the news item (supports HTML)
+- `content`: Detailed description (supports HTML and emoji)
+- `links`: Optional array of related resources
 
 ## Customization Guide
 
-### Basic Information
+### Updating Personal Information
 
-Edit the `data/profile-info.json` file to update your basic information:
+1. **Basic Profile**:
+   - Edit `data/profile-info.json` to update your name, title, and affiliations
+   - Replace the profile photo in `assets/profile.jpg` (recommended size: 500x500px)
 
-1. **Name**: Replace the `name` value with your name
-2. **Title/Affiliation**: Update the `subtitle` value with your position, university, and lab affiliations
-3. **Profile Image**: Update the `profileImage` value with the path to your profile photo
+2. **Social Media & Contact Links**:
+   - Modify the `socialLinks` array in `profile-info.json`
+   - Each link needs a type, URL, icon, and optional target attribute
+   - Icons use Font Awesome classes (see [Font Awesome](https://fontawesome.com/icons))
 
-### Profile Photo
+### Customizing Research Areas
 
-1. Replace the `profile.jpg` in the `assets` folder with your own photo
-2. Make sure your photo is properly cropped to a square or similar aspect ratio for best results
-3. The recommended size is 500x500 pixels
+Edit the Research Interests section in `index.html`:
 
-### Social Media & Contact Links
-
-Edit the `socialLinks` array in `data/profile-info.json`:
-
-```json
-"socialLinks": [
-  {
-    "type": "email",
-    "url": "mailto:your.email@example.com",
-    "icon": "<i class=\"fas fa-envelope\"></i>"
-  },
-  {
-    "type": "github",
-    "url": "https://github.com/yourusername",
-    "icon": "<i class=\"fab fa-github\"></i>",
-    "target": "_blank"
-  }
-]
+```html
+<section id="research" class="section">
+    <div class="container">
+        <h2 class="section-title">Research Interests</h2>
+        <div class="research-areas">
+            <div class="research-area">
+                <i class="fas fa-sun"></i>
+                <h3>Renewable Energy Systems</h3>
+                <ul class="research-list">
+                    <li><strong>Solar Energy Storage Solutions:</strong> Description...</li>
+                    <li><strong>Microgrid Optimization:</strong> Description...</li>
+                </ul>
+            </div>
+            <!-- Additional research areas... -->
+        </div>
+    </div>
+</section>
 ```
 
-For each link, specify:
-- `type`: A unique identifier for the link type
-- `url`: The URL to link to
-- `icon`: HTML for the icon (using Font Awesome or custom SVG)
-- `target`: Optional, set to "_blank" to open in a new tab
+For each research area:
+1. Choose an appropriate Font Awesome icon that represents the topic
+2. Update the heading to reflect your area of expertise
+3. List specific subfields with brief descriptions of your work
 
-### Education
+### Managing Publications
 
-Update the education timeline in `index.html`:
+To update your publications:
 
-1. For each educational experience, modify the following template:
+1. Edit `data/publications.json` following the structure outlined above
+2. For new publications:
+   - Assign a unique number (typically sequential)
+   - Format author names with your name highlighted using HTML tags
+   - Set the correct publication type and first author status
+   - Add relevant tags with links to resources
+   - For accepted papers, include the venue information
+
+Publications are automatically categorized and can be filtered using the buttons in the publications section.
+
+### Updating Education History
+
+Modify the education timeline in `index.html`:
+
 ```html
 <div class="timeline-item">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
         <div class="edu-content-wrapper">
             <div class="edu-text">
-                <h3>Degree @ University Name</h3>
-                <p class="timeline-date">Start Date - End Date</p>
-                <p>Major/Department</p>
-                <p>Additional information</p>
+                <h3>PhD @ West Coast University (WCU)</h3>
+                <p class="timeline-date">Aug. 2023 - Now</p>
+                <p>Computer Science</p>
+                <p>Supervisor: <a href="#">Prof. Robert "Bob" Williams</a> (Chair Professor of AI, ACM, IEEE, and AAAS Fellow)</p>
             </div>
             <div class="school-logo">
-                <img src="assets/university-logo.png" alt="University Name" class="edu-logo">
+                <img src="assets/cityu-logo.jpeg" alt="West Coast University" class="edu-logo">
             </div>
         </div>
     </div>
 </div>
 ```
 
-2. Add your university logos to the `assets` folder and update the image paths
+For each education entry:
+1. Update the degree, university name, and acronym
+2. Set the correct date range
+3. Update the field of study
+4. Include supervisor information and notable achievements
+5. Replace the university logo image in the `assets/` folder
 
-### Research Interests
-
-Modify the research interests section in `index.html`:
-
-1. Each research area follows this structure:
-```html
-<div class="research-area">
-    <i class="fas fa-icon-name"></i> <!-- Choose an appropriate Font Awesome icon -->
-    <h3>Research Area Title</h3>
-    <ul class="research-list">
-        <li><strong>Subfield:</strong> Description of your work in this subfield.</li>
-        <!-- Add more subfields as needed -->
-    </ul>
-</div>
-```
-
-2. You can find suitable Font Awesome icons at [Font Awesome](https://fontawesome.com/icons)
-
-### Publications
-
-Edit the `data/publications.json` file to include your publications. Each publication should follow this structure:
-
-```json
-{
-  "number": 1,
-  "title": "Your Publication Title",
-  "authors": "<strong><u>Your Name</u></strong>, Co-author One, Co-author Two",
-  "type": "preprint",  // or "accepted"
-  "isFirstAuthor": true,  // or false
-  "venue": "Conference or Journal Name",  // optional, for accepted papers
-  "tags": [
-    {
-      "text": "PDF",
-      "class": "code-tag",
-      "link": "https://link-to-paper.com"
-    }
-  ]
-}
-```
-
-- Highlight your name using `<strong>` and `<u>` tags
-- Set `isFirstAuthor` to true for papers where you are the first author or have equal contribution
-- Use the following classes for tags:
-  - `preprint-tag` for preprints
-  - `venue-tag` for conference/journal names
-  - `code-tag` for links to code, PDFs, etc.
-
-### News
-
-Edit the `data/news.json` file to include your news items:
-
-```json
-{
-  "date": "Month YYYY",
-  "title": "News Title",
-  "content": "News content description",
-  "links": [
-    {
-      "text": "Link Text",
-      "url": "https://link-url.com"
-    }
-  ]
-}
-```
-
-You can include HTML in the title and content fields if needed. The most recent news items will appear on the homepage, with all items available on the all-news page.
-
-### Honors & Awards
+### Modifying Honors & Awards
 
 Update the honors and awards section in `index.html`:
 
 ```html
 <div class="honor-item">
-    <div class="honor-year"><span class="year-highlight">YYYY</span></div>
+    <div class="honor-year"><span class="year-highlight">2023</span></div>
     <div class="honor-content">
-        <h3>Award Name</h3>
-        <p>Awarding Organization</p>
-        <p>Additional information about the award</p>
+        <h3>University Research Tuition Grant</h3>
+        <p>West Coast University</p>
+        <p>$35,000 to cover part of tuition fees during PhD.</p>
     </div>
 </div>
 ```
 
-### Services
+For each award:
+1. Set the correct year in the `honor-year` div
+2. Update the award name in the heading
+3. Include the awarding organization or institution
+4. Add relevant details about the award (amount, significance, etc.)
 
-Modify the services section in `index.html` to list your professional services:
+### Managing Professional Services
+
+Modify the services section in `index.html` to reflect your academic service and teaching experience:
 
 ```html
 <div class="service-category">
-    <h3>Category Title</h3>
+    <h3>Conference Technical Program Committee & Reviewer</h3>
     <ul class="service-list">
-        <li>Service Item 1</li>
-        <li>Service Item 2</li>
-        <!-- Add more items as needed -->
+        <li>Conference Name'YY</li>
+        <!-- Additional conferences... -->
     </ul>
 </div>
 ```
 
-## Advanced Customization
+Organize services into categories such as:
+- Conference committees and reviewing
+- Journal reviewing
+- Teaching experience
+- Workshop organization
+- Professional memberships
 
-### Mobile Optimization
+### Updating Contact Information
 
-This template includes several mobile-specific optimizations:
+To update your contact information:
 
-1. **Horizontal Navigation Scroll**:
-   - The navigation bar automatically adapts to mobile devices with a horizontal scrolling interface
-   - Visual gradient indicators appear when there's more content to scroll to
-   - Active navigation items are automatically centered for better visibility
-   - Smooth scrolling with touch momentum for an app-like feel
-
-2. **Responsive Timeline**:
-   - Timeline markers are hidden on mobile for a cleaner interface
-   - Educational information is reordered for better mobile presentation
-   - School logos and educational information adapt to different screen sizes
-
-3. **Adaptive Content Layout**:
-   - Content cards in honors, news, and services sections stack vertically on mobile
-   - Font sizes and spacing automatically adjust for readability on smaller screens
-   - Interactive elements have appropriate touch targets for mobile usability
-
-To customize mobile behavior further, edit the media queries in the `styles.css` file:
-
-```css
-@media (max-width: 768px) {
-    /* Tablet and mobile styles */
-}
-
-@media (max-width: 576px) {
-    /* Small mobile styles */
-}
+1. Modify the address in the Contact section of `index.html`:
+```html
+<div class="address-info">
+    <h3>Office Address</h3>
+    <p><i class="fas fa-map-marker-alt"></i> 123 University Drive, West Coast, CA 90210, USA</p>
+</div>
 ```
 
-### Color Scheme
+2. Update the Google Maps iframe embed with your location:
+```html
+<iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!..." 
+    width="100%" 
+    height="400" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+```
 
-To change the color scheme, edit the CSS variables in the `styles.css` file:
+To get a new Google Maps embed code:
+1. Go to [Google Maps](https://www.google.com/maps)
+2. Search for your location
+3. Click "Share" and then "Embed a map"
+4. Copy the provided iframe HTML code
+
+## Advanced Customization
+
+### Changing Theme Colors
+
+To modify the color scheme, edit the CSS variables in `styles.css`:
 
 ```css
 :root {
     --primary-color: #0066cc; /* Main accent color */
-    --secondary-color: #f8f9fa; /* Background color for sections */
+    --secondary-color: #f8f9fa; /* Section background color */
     --text-color: #333; /* Main text color */
     --light-text: #757575; /* Secondary text color */
     --border-color: #e0e0e0; /* Border color */
+    /* Additional color variables... */
 }
 ```
 
-### Font Changes
+For an environmental theme, consider using:
+- Green tones for sustainability focus
+- Blue tones for water research
+- Earth tones for environmental focus
 
-To change fonts:
+### Updating Font Styles
 
-1. Update the Google Fonts link in the `<head>` section of your HTML files:
+To change the typography:
+
+1. Update the Google Fonts link in the `<head>` section of `index.html`:
 ```html
-<link href="https://fonts.googleapis.com/css2?family=YourChosenFont:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 ```
 
-2. Update the font-family in the `styles.css` file:
+2. Modify the font-family in `styles.css`:
 ```css
 body {
-    font-family: 'YourChosenFont', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 ```
 
-### Section Ordering
+### Adding New Sections
 
-To reorder sections:
+To add a new section:
 
-1. Rearrange the `<section>` elements in the `index.html` file
-2. Update the navigation links accordingly to maintain proper scrolling
+1. Create the section HTML in `index.html`:
+```html
+<section id="new-section-id" class="section">
+    <div class="container">
+        <h2 class="section-title">New Section Title</h2>
+        <!-- Section content here -->
+    </div>
+</section>
+```
 
-## Deployment
+2. Add a navigation link in the nav bar:
+```html
+<li><a href="#new-section-id">New Section</a></li>
+```
 
-To deploy your website:
+3. Add any necessary CSS styles in `styles.css`
 
-1. **GitHub Pages**:
+### Modifying Layout
+
+To change the layout structure:
+
+1. Adjust the container width in `styles.css`:
+```css
+.container {
+    max-width: 1140px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+```
+
+2. Modify the grid structure for specific sections:
+```css
+.research-areas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+```
+
+## Mobile Optimization
+
+This website includes several mobile-specific optimizations:
+
+1. **Responsive Navigation**:
+   - Horizontal scroll navigation on mobile devices
+   - Visual indicators show when more menu items are available
+   - Active items automatically center in the viewport
+   - Touch-friendly scrolling behavior
+
+2. **Content Adaptation**:
+   - Stacked layout for mobile devices
+   - Properly sized touch targets for interface elements
+   - Readable font sizes on small screens
+   - Optimized spacing for mobile viewing
+
+3. **Performance Optimizations**:
+   - Lazy loading for map and images
+   - Minimal dependencies for faster loading
+   - Efficient CSS with media queries
+
+To further customize mobile behavior, edit the media queries in `styles.css`:
+
+```css
+@media (max-width: 768px) {
+    /* Tablet styles */
+}
+
+@media (max-width: 576px) {
+    /* Mobile phone styles */
+}
+```
+
+## Deployment Options
+
+There are several ways to deploy your environmental engineering portfolio:
+
+1. **GitHub Pages** (Free):
    - Push your repository to GitHub
    - Enable GitHub Pages in the repository settings
-   - Your site will be available at `https://yourusername.github.io/repository-name`
+   - Site will be available at `https://yourusername.github.io/repository-name`
+   - Instructions: [GitHub Pages Documentation](https://docs.github.com/en/pages)
 
-2. **Netlify**:
+2. **Netlify** (Free tier available):
    - Create an account on [Netlify](https://www.netlify.com/)
-   - Drag and drop your project folder to deploy
-   - Your site will be given a Netlify subdomain with option to use a custom domain
+   - Connect to your GitHub repository or upload your files directly
+   - Configure build settings if needed (not required for this static site)
+   - Optionally set up a custom domain
+   - Instructions: [Netlify Documentation](https://docs.netlify.com/)
 
-3. **University Web Space**:
-   - Many universities provide web hosting for faculty and students
-   - Contact your university's IT services for information on how to upload your files
+3. **University Web Hosting**:
+   - Many universities provide web space for faculty and students
+   - Contact your university IT department for access details
+   - Upload the files via FTP or the provided web interface
+   - Your site will typically be available at `https://university.edu/~username`
 
-## License
+4. **Custom Web Hosting**:
+   - Purchase hosting from providers like NameCheap, Bluehost, or SiteGround
+   - Register a domain name (e.g., `www.yourname.com`)
+   - Upload the website files via FTP or the hosting control panel
+   - Point your domain to the hosting provider
 
-This project is available under the MIT License. You are free to use, modify, and distribute this template for both personal and commercial purposes.
+## Browser Compatibility
+
+This website is optimized for modern browsers including:
+- Chrome 70+
+- Firefox 63+
+- Safari 12+
+- Edge 79+
+- Opera 57+
+- Mobile browsers (iOS Safari, Android Chrome)
+
+For older browsers, some advanced CSS features may not display correctly, but content will remain accessible.
+
+## License & Attribution
+
+This project is available under the MIT License. You are free to use, modify, and distribute this template for both personal and academic purposes.
+
+When using this template, attribution is appreciated but not required.
+
+---
+
+**Last Updated:** May 2024  
+**Created By:** Alexander Morgan  
+**Contact:** alex.morgan@example.com
