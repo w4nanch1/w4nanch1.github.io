@@ -178,8 +178,8 @@ nav {
     max-width: 800px;
 }
 
-/* Latest News Section */
-.news-list {
+/* News Section */
+.news-container, .news-list {
     margin-top: 2rem;
 }
 
@@ -191,6 +191,8 @@ nav {
     border-bottom: 1px solid var(--border-color);
     transition: all 0.2s ease;
     border-radius: 4px;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 .news-item:hover {
@@ -214,6 +216,14 @@ nav {
     display: flex;
     align-items: flex-start;
     padding-top: 2px;
+}
+
+.date-highlight, .year-highlight {
+    background-color: rgba(0, 102, 204, 0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 0.9rem;
 }
 
 .news-content {
@@ -248,20 +258,37 @@ nav {
     text-align: center;
 }
 
-.view-all-news .btn, .back-to-home .btn {
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    transition: all 0.3s ease;
+.text-center {
+    text-align: center;
 }
 
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Media queries for news items */
 @media (max-width: 768px) {
     .news-item {
         flex-direction: column;
     }
     
     .news-date {
-        margin-bottom: 0.75rem;
         margin-right: 0;
+        margin-bottom: 1rem;
     }
 }
 
@@ -318,6 +345,8 @@ nav {
     position: relative;
     padding-left: 30px;
     margin-bottom: 2.5rem;
+    display: flex;
+    align-items: flex-start;
 }
 
 .timeline-marker {
@@ -334,6 +363,32 @@ nav {
     padding: 1.5rem;
     background-color: var(--secondary-color);
     border-radius: 4px;
+    flex: 1;
+}
+
+.edu-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edu-text {
+    flex: 1;
+    padding-right: 1rem;
+}
+
+.school-logo {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edu-logo {
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: contain;
 }
 
 .timeline-content h3 {
@@ -691,10 +746,11 @@ footer {
 }
 
 .year-highlight {
-    background-color: rgba(0, 102, 204, 0.1);
-    padding: 2px 8px;
-    border-radius: 4px;
     display: inline-block;
+    background-color: #e1f5fe;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {
@@ -760,13 +816,12 @@ footer {
 
 /* Button Styles */
 .btn {
-    display: inline-flex;
-    align-items: center;
+    display: inline-block;
     padding: 0.75rem 1.5rem;
-    border-radius: 4px;
     font-weight: 500;
     text-decoration: none;
     cursor: pointer;
+    border-radius: 4px;
     transition: all 0.3s ease;
 }
 
@@ -902,6 +957,36 @@ footer {
     .gallery-container {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
+    
+    .timeline-item {
+        flex-direction: column;
+    }
+    
+    .edu-content-wrapper {
+        flex-direction: column;
+    }
+    
+    .edu-text {
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .school-logo {
+        align-self: center;
+    }
+    
+    .edu-logo {
+        width: 80px;
+    }
+    
+    .honor-item {
+        flex-direction: column;
+    }
+    
+    .honor-year {
+        margin-bottom: 0.75rem;
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 576px) {
@@ -941,4 +1026,13 @@ footer {
     .contact-social {
         grid-column: span 1;
     }
+}
+
+/* Ensure date-highlight and year-highlight have the same styling */
+.date-highlight, .year-highlight {
+    display: inline-block;
+    background-color: #e1f5fe;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
 } 

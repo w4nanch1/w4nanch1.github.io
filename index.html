@@ -60,21 +60,34 @@
                     <div class="timeline-item">
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3>City University of Hong Kong (CITYU-HK)</h3>
-                            <p class="timeline-date">Jan. 2024 - Now</p>
-                            <p>PhD @ Computer Science</p>
-                            <p>Research Interests: Multi-Agent Autonomous Driving, Autonomous Driving Security, Foundation Models</p>
-                            <p>Supervisor: Prof. Yuguang "Michael" Fang (Chair Professor of IoT, ACM, IEEE, and AAAS Fellow)</p>
+                            <div class="edu-content-wrapper">
+                                <div class="edu-text">
+                                    <h3>PhD @ City University of Hong Kong (CITYUHK)</h3>
+                                    <p class="timeline-date">Jan. 2024 - Now</p>
+                                    <p>Computer Science</p>
+                                    
+                                    <p>Supervisor: <a href="https://www.cs.cityu.edu.hk/~yugufang/">Prof. Yuguang "Michael" Fang (Chair Professor of IoT, ACM, IEEE, and AAAS Fellow)</a></p>
+                                </div>
+                                <div class="school-logo">
+                                    <img src="assets/cityu-logo.jpeg" alt="City University of Hong Kong" class="edu-logo">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
-                            <h3>Beijing Institute of Technology (BIT)</h3>
-                            <p class="timeline-date">Sep. 2018 - Jul. 2022</p>
-                            <p>BEng @ Electronic Information Engineering</p>
-                            <p>GPA: 88.3/100, Top 6%</p>
-                            <p>National Scholarship</p>
+                            <div class="edu-content-wrapper">
+                                <div class="edu-text">
+                                    <h3>BEng @ Beijing Institute of Technology (BIT)</h3>
+                                    <p class="timeline-date">Sep. 2018 - Jul. 2022</p>
+                                    <p>BEng @ Electronic Information Engineering</p>
+                                    <p>National Scholarship</p>
+                                </div>
+                                <div class="school-logo">
+                                    <img src="assets/bit-logo.png" alt="Beijing Institute of Technology" class="edu-logo">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -104,63 +117,8 @@
         <section id="latest-news" class="section">
             <div class="container">
                 <h2 class="section-title">Latest News</h2>
-                <div class="news-list">
-                    <div class="news-item">
-                        <div class="news-date"><span class="year-highlight">Mar. 2025</span></div>
-                        <div class="news-content">
-                            <h3>New Project Launch: <a href="https://github.com/dl-m9/Multi-Agent-Autonomous-Driving">Multi-Agent Autonomous Driving</a></h3>
-                            <p>🔥🔥🔥 We launched a new project about Multi-Agent Autonomous Driving! This project will continuously collect papers from recent years in the field of multi-agent autonomous driving and is the most comprehensive repo in this field! Welcome to Star ⭐️ & Contribute! <a href="https://github.com/dl-m9/Multi-Agent-Autonomous-Driving">Github Repository</a></p>
-                        </div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date"><span class="year-highlight">Feb. 2025</span></div>
-                        <div class="news-content">
-                            <h3>PhD Qualification Success</h3>
-                            <p>Senkang passed the PhD Qualifying Examination (QE)! He is now a PhD candidate! 🎉🎉🎉</p>
-                        </div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date"><span class="year-highlight">Jan. 2025</span></div>
-                        <div class="news-content">
-                            <h3>Paper Accepted by ICRA'25</h3>
-                            <p>One paper was accepted by The 2025 IEEE International Conference on Robotics and Automation (ICRA'25)! <a href="#">PDF</a></p>
-                        </div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date"><span class="year-highlight">Jan. 2025</span></div>
-                        <div class="news-content">
-                            <h3>AAAI'25 Oral Presentation</h3>
-                            <p>Our paper accepted by AAAI'25 was selected for Oral Presentation! Congratulations again 🎉!</p>
-                        </div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date"><span class="year-highlight">Dec. 2024</span></div>
-                        <div class="news-content">
-                            <h3>Paper Accepted by IEEE/ACM ToN</h3>
-                            <p>One paper was accepted by IEEE/ACM Transactions on Networking (ToN)! <a href="#">PDF</a> <a href="#">Code</a></p>
-                        </div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date"><span class="year-highlight">Dec. 2024</span></div>
-                        <div class="news-content">
-                            <h3>Paper Accepted by AAAI'25</h3>
-                            <p>Congratulations 🎉! One paper was accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI'25), see you in Philadelphia, Pennsylvania, USA 🇺🇸! <a href="#">PDF</a></p>
-                        </div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date"><span class="year-highlight">Nov. 2024</span></div>
-                        <div class="news-content">
-                            <h3>Paper Accepted by IEEE TITS</h3>
-                            <p>One paper was accepted by IEEE Transactions on Intelligent Transportation Systems (TITS), congratulations 🎉!!! <a href="#">PDF</a></p>
-                        </div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date"><span class="year-highlight">Nov. 2024</span></div>
-                        <div class="news-content">
-                            <h3>IEEE ComSoc Student Grant Award</h3>
-                            <p>Senkang was awarded the IEEE ComSoc Student Grant to support his conference travel.</p>
-                        </div>
-                    </div>
+                <div id="news-container" class="news-list">
+                    <!-- News items will be dynamically loaded here from news.json -->
                 </div>
                 <div class="view-all-news">
                     <a href="pages/all-news.html" class="btn btn-primary"><i class="fas fa-list"></i> View All News</a>
