@@ -177,43 +177,38 @@ nav {
 /* Mobile Navigation Menu */
 .menu-toggle {
     display: none;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    color: var(--text-color);
-    cursor: pointer;
-    position: absolute;
-    left: 15px;
-    top: 20px;
-    z-index: 100;
 }
 
 @media (max-width: 768px) {
     .menu-toggle {
-        display: block;
+        display: none;
     }
     
     .nav-links {
-        position: fixed;
-        flex-direction: column;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
         background-color: #fff;
         width: 100%;
-        top: 60px;
-        left: 0;
-        padding: 20px 0;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease;
-        z-index: 99;
-    }
-    
-    .nav-links.open {
-        max-height: 500px;
+        top: auto;
+        left: auto;
+        padding: 10px 0;
+        box-shadow: none;
+        max-height: none;
+        overflow: visible;
+        transition: none;
+        z-index: 1;
+        justify-content: center;
     }
     
     .nav-links li {
-        margin: 10px 0;
+        margin: 5px 10px;
+    }
+    
+    .nav-links a {
+        height: auto;
+        line-height: normal;
+        padding: 5px 0;
     }
     
     nav {
