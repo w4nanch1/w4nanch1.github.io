@@ -22,7 +22,7 @@
     "links": [
       {
         "text": "PDF",
-        "url": "#"
+        "url": "https://arxiv.org/abs/2409.08840"
       }
     ]
   },
@@ -38,11 +38,11 @@
     "links": [
       {
         "text": "PDF",
-        "url": "#"
+        "url": "https://ieeexplore.ieee.org/document/10845862"
       },
       {
         "text": "Code",
-        "url": "#"
+        "url": "https://github.com/fangzr/PIB-Prioritized-Information-Bottleneck-Framework"
       }
     ]
   },
@@ -53,7 +53,7 @@
     "links": [
       {
         "text": "PDF",
-        "url": "#"
+        "url": "https://arxiv.org/abs/2412.12000"
       }
     ]
   },
@@ -64,7 +64,7 @@
     "links": [
       {
         "text": "PDF",
-        "url": "#"
+        "url": "https://ieeexplore.ieee.org/abstract/document/10779389"
       }
     ]
   },
