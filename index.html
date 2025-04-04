@@ -310,6 +310,13 @@
                 document.querySelector('.nav-links').classList.remove('open');
             });
         });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.nav-links') && !event.target.closest('.menu-toggle')) {
+                document.querySelector('.nav-links').classList.remove('open');
+            }
+        });
     </script>
 </body>
 </html> 
