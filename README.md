@@ -1,4 +1,4 @@
-# Academic Personal Homepage
+# Academic Homepage Modernism
 
 A modern, responsive academic personal website template with clean design and JSON-powered dynamic content loading. This template is perfect for researchers, professors, and PhD students looking to showcase their academic achievements.
 
