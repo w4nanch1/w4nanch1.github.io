@@ -323,6 +323,30 @@ nav {
 
 .research-area h3 {
     font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.research-area p {
+    font-size: 0.9rem;
+    color: var(--light-text);
+    line-height: 1.5;
+}
+
+.research-list {
+    text-align: left;
+    padding-left: 1.2rem;
+    margin-bottom: 0;
+}
+
+.research-list li {
+    font-size: 0.9rem;
+    color: var(--light-text);
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+}
+
+.research-list li strong {
+    color: var(--text-color);
 }
 
 /* Education Timeline */
@@ -387,7 +411,7 @@ nav {
 .edu-logo {
     width: 100px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 30px;
     object-fit: contain;
 }
 
@@ -1035,4 +1059,127 @@ footer {
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 0.9rem;
-} 
+}
+
+/* Services Section */
+.services-content {
+    margin-top: 2rem;
+}
+
+.service-category {
+    margin-bottom: 2.5rem;
+}
+
+.service-category h3 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.service-category h3::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+.service-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.service-list li {
+    padding: 0.5rem 0.9rem;
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin-bottom: 0.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.service-list li:hover {
+    transform: translateX(5px);
+    background-color: rgba(0, 102, 204, 0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 102, 204, 0.1);
+}
+
+@media (max-width: 768px) {
+    .service-list {
+        gap: 0.5rem;
+    }
+    
+    .service-list li {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+/* Location Section */
+.location-content {
+    margin-top: 2rem;
+}
+
+.address-container {
+    margin-bottom: 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.address-info h3 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.address-info p {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.address-info i {
+    color: var(--primary-color);
+}
+
+.address-description {
+    color: var(--light-text);
+    font-size: 0.95rem !important;
+    margin-left: 1.5rem;
+}
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .address-info p {
+        font-size: 1rem;
+    }
+    
+    .address-description {
+        font-size: 0.9rem !important;
+    }
+}
