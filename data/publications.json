@@ -1,8 +1,8 @@
 [
   {
     "number": 1,
-    "title": "Task-Aware Parameter-Efficient Fine-Tuning of Large Pre-Trained Models at the Edge",
-    "authors": "<strong><u>Senkang \"Forest\" Hu</u></strong>, Yanan Ma, Yihang Tao, Zhengru Fang, Zihan Fang, Yiqin Deng, Sam Kwong, Yuguang Fang",
+    "title": "Sustainable Materials for High-Efficiency Solar Energy Storage Systems",
+    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Jennifer Lee, Michael Taylor, Sarah Johnson, David Chen, Thomas Wright, Robert Williams",
     "type": "preprint",
     "isFirstAuthor": true,
     "tags": [
@@ -13,14 +13,14 @@
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://www.researchgate.net/publication/390057227"
+        "link": "#"
       }
     ]
   },
   {
     "number": 2,
-    "title": "CP-Guard+: A New Paradigm for Malicious Agent Detection and Defense in Collaborative Perception",
-    "authors": "<strong><u>Senkang \"Forest\" Hu</u></strong>, Yihang Tao, Zihang Fang, Guowen Xu, Yiqin Deng, Sam Kwong, Yuguang Fang",
+    "title": "Bio-inspired Filtration Membranes for Advanced Water Purification",
+    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Michael Taylor, David Chen, William Brown, Thomas Wright, Robert Williams",
     "type": "preprint",
     "isFirstAuthor": true,
     "tags": [
@@ -31,14 +31,14 @@
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2502.07807v1"
+        "link": "#"
       }
     ]
   },
   {
     "number": 3,
-    "title": "AgentsCoMerge: Large Language Model Empowered Collaborative Decision Making for Multi-Lane Merging",
-    "authors": "<strong><u>Senkang \"Forest\" Hu</u></strong>, Zhengru Fang, Zihan Fang, Yiqin Deng, Xianhao Chen, Yuguang Fang, Sam Kwong",
+    "title": "EnergyNexus: A Novel Framework for Integrated Renewable Energy Management in Urban Environments",
+    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Sarah Johnson, David Chen, Thomas Wright, Emily White, Robert Williams, James Miller",
     "type": "preprint",
     "isFirstAuthor": true,
     "tags": [
@@ -49,14 +49,14 @@
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2408.03624"
+        "link": "#"
       }
     ]
   },
   {
     "number": 4,
-    "title": "AgentsCoDriver: Large Language Model Empowered Collaborative Driving with Lifelong Learning",
-    "authors": "<strong><u>Senkang \"Forest\" Hu</u></strong>, Zhengru Fang, Zihan Fang, Xianhao Chen, Yuguang Fang",
+    "title": "Lifecycle Assessment of Novel Carbon Capture Materials in Industrial Applications",
+    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Sarah Johnson, David Chen, Emily White, Robert Williams",
     "type": "preprint",
     "isFirstAuthor": true,
     "tags": [
@@ -67,19 +67,19 @@
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2404.06345"
+        "link": "#"
       },
       {
         "text": "Blog",
         "class": "code-tag",
-        "link": "https://mp.weixin.qq.com/s/HVfs4-PT58WujCvEZZboug"
+        "link": "#"
       }
     ]
   },
   {
     "number": 5,
-    "title": "Collaborative Perception for Autonomous Driving: Challenges, Possible Solutions and Opportunities",
-    "authors": "<strong><u>Senkang \"Forest\" Hu</u></strong>, Zhengru Fang, Yiqin Deng, Xianhao Chen, Yuguang Fang",
+    "title": "Sustainable Energy Transitions in Developing Economies: Challenges, Solutions and Future Directions",
+    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Sarah Johnson, Thomas Wright, Emily White, Robert Williams",
     "type": "preprint",
     "isFirstAuthor": true,
     "tags": [
@@ -90,14 +90,14 @@
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2401.01544"
+        "link": "#"
       }
     ]
   },
   {
     "number": 6,
-    "title": "Sense4FL: Vehicular Crowdsensing Enhanced Federated Learning for Autonomous Driving",
-    "authors": "Yanan Ma, <strong><u>Senkang \"Forest\" Hu</u></strong>, Zhengru Fang, Yun Ji, Yiqin Deng, Yuguang Fang",
+    "title": "BioClear: Algae-based Bioremediation System for Urban Water Treatment",
+    "authors": "Jennifer Lee, <strong><u>Alexander \"Alex\" Morgan</u></strong>, Sarah Johnson, Mark Davis, Thomas Wright, Robert Williams",
     "type": "preprint",
     "isFirstAuthor": false,
     "tags": [
@@ -108,14 +108,14 @@
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2503.17697"
+        "link": "#"
       }
     ]
   },
   {
     "number": 7,
-    "title": "GCP: Guarded Collaborative Perception with Spatial-Temporal Aware Malicious Agent Detection",
-    "authors": "Yihang Tao<sup>#</sup>, <strong><u>Senkang \"Forest\" Hu</u></strong><sup>#</sup>, Yue Hu, Haonan An, Hangcheng Cao, Yuguang Fang",
+    "title": "HydroGuard: Real-time Monitoring and Protection System for Groundwater Contamination Prevention",
+    "authors": "Michael Taylor<sup>#</sup>, <strong><u>Alexander \"Alex\" Morgan</u></strong><sup>#</sup>, Lisa Wang, Kevin Miller, Christopher Harris, Robert Williams",
     "type": "preprint",
     "isFirstAuthor": true,
     "tags": [
@@ -126,14 +126,14 @@
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2501.02450"
+        "link": "#"
       }
     ]
   },
   {
     "number": 8,
-    "title": "IC3M: In-Car Multimodal Multi-object Monitoring for Abnormal Status of Both Driver and Passengers",
-    "authors": "Zihan Fang, Zheng Lin, <strong><u>Senkang \"Forest\" Hu</u></strong>, Hangcheng Cao, Xianhao Chen, and Yuguang Fang",
+    "title": "GreenBuild: Sustainable Construction Materials from Recycled Industrial Waste",
+    "authors": "David Chen, Ryan Smith, <strong><u>Alexander \"Alex\" Morgan</u></strong>, Christopher Harris, Emily White, Robert Williams",
     "type": "preprint",
     "isFirstAuthor": false,
     "tags": [
@@ -144,150 +144,150 @@
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2410.02592"
+        "link": "#"
       }
     ]
   },
   {
     "number": 9,
-    "title": "Direct-CP: Directed Collaborative Perception for Connected and Autonomous Vehicles via Proactive Attention",
-    "authors": "Yihang Tao, <strong><u>Senkang \"Forest\" Hu</u></strong>, Zhengru Fang, Yuguang Fang",
+    "title": "SolarGrid: Adaptive Control Algorithms for Resilient Solar Microgrids in Remote Communities",
+    "authors": "Michael Taylor, <strong><u>Alexander \"Alex\" Morgan</u></strong>, Sarah Johnson, Robert Williams",
     "type": "accepted",
     "isFirstAuthor": false,
-    "venue": "The 2025 IEEE International Conference on Robotics & Automation, 19-23 May, Atlanta, USA.",
+    "venue": "The 2025 IEEE International Conference on Energy & Sustainability, 19-23 May, Atlanta, USA.",
     "tags": [
       {
-        "text": "ICRA'25",
+        "text": "ICES'25",
         "class": "venue-tag"
       },
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2409.08840"
+        "link": "#"
       }
     ]
   },
   {
     "number": 10,
-    "title": "CP-Guard: Malicious Agent Detection and Defense in Collaborative Bird's Eye View Perception",
-    "authors": "<strong><u>Senkang \"Forest\" Hu</u></strong><sup>#</sup>, Yihang Tao<sup>#</sup>, Guowen Xu, Yiqin Deng, Xianhao Chen, Yuguang Fang, Sam Kwong",
+    "title": "CarbonTrap: Novel Nanomaterials for Enhanced Direct Air Capture of Carbon Dioxide",
+    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong><sup>#</sup>, Michael Taylor<sup>#</sup>, William Brown, Thomas Wright, Emily White, Robert Williams, James Miller",
     "type": "accepted",
     "isFirstAuthor": true,
-    "venue": "The 39th Annual AAAI Conference on Artificial Intelligence, Philadelphia, Pennsylvania, USA, February 2025.",
+    "venue": "The 39th Annual Environmental Science Conference, Philadelphia, Pennsylvania, USA, February 2025.",
     "tags": [
       {
-        "text": "AAAI'25 Oral",
+        "text": "ESC'25 Oral",
         "class": "venue-tag"
       },
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2412.12000"
+        "link": "#"
       }
     ]
   },
   {
     "number": 11,
-    "title": "Toward Full-scene Domain Generalization in Multi-agent Collaborative Bird's Eye View Segmentation for Connected and Autonomous Driving",
-    "authors": "<strong><u>Senkang \"Forest\" Hu</u></strong>, Zhengru Fang, Yiqin Deng, Xianhao Chen, Yuguang Fang, and Sam Kwong",
+    "title": "Advanced Membrane Technologies for Microplastic Removal from Wastewater Treatment Plants",
+    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Sarah Johnson, Thomas Wright, Emily White, Robert Williams, James Miller",
     "type": "accepted",
     "isFirstAuthor": true,
-    "venue": "IEEE Transactions on Intelligent Transportation Systems.",
+    "venue": "IEEE Transactions on Environmental Engineering.",
     "tags": [
       {
-        "text": "TITS'24",
+        "text": "TEE'24",
         "class": "venue-tag"
       },
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://ieeexplore.ieee.org/abstract/document/10779389"
+        "link": "#"
       }
     ]
   },
   {
     "number": 12,
-    "title": "Adaptive Communications in Collaborative Perception with Domain Alignment for Autonomous Driving",
-    "authors": "<strong><u>Senkang \"Forest\" Hu</u></strong>, Zhengru Fang, Haonan An, Guowen Xu, Yuan Zhou, Xianhao Chen, and Yuguang Fang",
+    "title": "Hybrid Renewable Energy Systems: Optimizing Wind-Solar Integration for Coastal Communities",
+    "authors": "<strong><u>Alexander \"Alex\" Morgan</u></strong>, Sarah Johnson, Kevin Miller, William Brown, Richard Davis, Emily White, Robert Williams",
     "type": "accepted",
     "isFirstAuthor": true,
-    "venue": "IEEE Global Communications Conference, Cape Town, South Africa, December 2024.",
+    "venue": "Global Renewable Energy Conference, Cape Town, South Africa, December 2024.",
     "tags": [
       {
-        "text": "GLOBECOM'24",
+        "text": "GREC'24",
         "class": "venue-tag"
       },
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://ieeexplore.ieee.org/document/10901656"
+        "link": "#"
       }
     ]
   },
   {
     "number": 13,
-    "title": "Prioritized Information Bottleneck Theoretic Framework with Distributed Online Learning for Edge Video Analytics",
-    "authors": "Zhengru Fang, <strong><u>Senkang \"Forest\" Hu</u></strong>, Jingjing Wang, Yiqin Deng, Xianhao Chen, Yuguang Fang",
+    "title": "Circular Economy Approaches to Electronics Waste Management in Developing Countries",
+    "authors": "Sarah Johnson, <strong><u>Alexander \"Alex\" Morgan</u></strong>, Lisa Wang, Thomas Wright, Emily White, Robert Williams",
     "type": "accepted",
     "isFirstAuthor": false,
-    "venue": "IEEE/ACM Transactions on Networking.",
+    "venue": "Journal of Sustainable Development.",
     "tags": [
       {
-        "text": "ToN'24",
+        "text": "JSD'24",
         "class": "venue-tag"
       },
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://ieeexplore.ieee.org/document/10845862"
+        "link": "#"
       },
       {
         "text": "Code",
         "class": "code-tag",
-        "link": "https://github.com/fangzr/PIB-Prioritized-Information-Bottleneck-Framework"
+        "link": "#"
       }
     ]
   },
   {
     "number": 14,
-    "title": "PACP: Priority-Aware Collaborative Perception for Connected and Autonomous Vehicles",
-    "authors": "Zhengru Fang, <strong><u>Senkang \"Forest\" Hu</u></strong>, Haonan An, Yuang Zhang, Jingjing Wang, Hangcheng Cao, Xianhao Chen, Yuguang Fang",
+    "title": "WaterWise: Smart Irrigation Systems for Drought-Prone Agricultural Regions",
+    "authors": "Sarah Johnson, <strong><u>Alexander \"Alex\" Morgan</u></strong>, Kevin Miller, Richard Davis, Lisa Wang, Christopher Harris, Emily White, Robert Williams",
     "type": "accepted",
     "isFirstAuthor": false,
-    "venue": "IEEE Transactions on Moblie Computing.",
+    "venue": "IEEE Transactions on Agricultural Engineering.",
     "tags": [
       {
-        "text": "TMC'24",
+        "text": "TAE'24",
         "class": "venue-tag"
       },
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://arxiv.org/abs/2404.06891"
+        "link": "#"
       }
     ]
   },
   {
     "number": 15,
-    "title": "PIB: Prioritized Information Bottleneck Framework for Collaborative Edge Video Analytics",
-    "authors": "Zhengru Fang, <strong><u>Senkang \"Forest\" Hu</u></strong>, Yuguang Fang, et al.",
+    "title": "BioChar: Optimized Production Methods for Carbon Sequestration and Soil Enhancement",
+    "authors": "Sarah Johnson, <strong><u>Alexander \"Alex\" Morgan</u></strong>, Robert Williams, et al.",
     "type": "accepted",
     "isFirstAuthor": false,
-    "venue": "IEEE Global Communications Conference, Cape Town, South Africa, December 2024.",
+    "venue": "Global Climate Solutions Conference, Cape Town, South Africa, December 2024.",
     "tags": [
       {
-        "text": "GLOBECOM'24",
+        "text": "GCSC'24",
         "class": "venue-tag"
       },
       {
         "text": "PDF",
         "class": "code-tag",
-        "link": "https://ieeexplore.ieee.org/document/10900993"
+        "link": "#"
       },
       {
         "text": "Code",
         "class": "code-tag",
-        "link": "https://github.com/fangzr/PIB-Prioritized-Information-Bottleneck-Framework"
+        "link": "#"
       }
     ]
   }

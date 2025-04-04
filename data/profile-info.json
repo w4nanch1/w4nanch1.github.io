@@ -1,10 +1,10 @@
 {
-  "name": "SENKANG \"FOREST\" HU 🍀",
-  "subtitle": "PhD@CS, CITYUHK &nbsp;&nbsp;  BEng@EE, BIT<br><a href=\"https://jcstemlab.netlify.app/\">JC STEM Lab of Smart City</a><br><a href=\"https://winet.cityu.edu.hk/\">Wireless Intelligence and Networked Things Laboratory (WINET)</a>",
+  "name": "ALEXANDER \"ALEX\" MORGAN 🍀",
+  "subtitle": "PhD@CS, WCU &nbsp;&nbsp;  BEng@EE, NTU<br><a href=\"#\">Center for AI and Smart Systems</a><br><a href=\"#\">Autonomous Systems and Connected Technologies Lab (ASCT)</a>",
   "socialLinks": [
     {
       "type": "email",
-      "url": "mailto:senkang.forest@gmail.com",
+      "url": "mailto:alex.morgan@example.com",
       "icon": "<i class=\"fas fa-envelope\"></i>"
     },
     {
@@ -15,31 +15,31 @@
     },
     {
       "type": "googleScholar",
-      "url": "https://scholar.google.com/citations?hl=en&user=rtPVwT8AAAAJ",
+      "url": "#",
       "icon": "<i class=\"fas fa-graduation-cap\"></i>",
       "target": "_blank"
     },
     {
       "type": "linkedin",
-      "url": "https://www.linkedin.com/in/senkang-hu-3123681b5/",
+      "url": "#",
       "icon": "<i class=\"fab fa-linkedin\"></i>",
       "target": "_blank"
     },
     {
       "type": "github",
-      "url": "https://github.com/dl-m9",
+      "url": "#",
       "icon": "<i class=\"fab fa-github\"></i>",
       "target": "_blank"
     },
     {
       "type": "dblp",
-      "url": "https://dblp.org/pid/358/4477",
+      "url": "#",
       "icon": "<img src=\"assets/dblp.svg\" alt=\"DBLP\" class=\"icon-svg\">",
       "target": "_blank"
     },
     {
       "type": "researchgate",
-      "url": "https://www.researchgate.net/profile/Senkang-Hu?ev=hdr_xprf&_sg=RudTlDaZrI-AyeiJ3fg5vDRTScMNiZSqci0c4CBvR8grICMQO9xjMhw9hl5gfCqJl_fkZ61i-pRUkz73RKrQnajN",
+      "url": "#",
       "icon": "<i class=\"fab fa-researchgate\"></i>",
       "target": "_blank"
     }

@@ -1,111 +1,96 @@
 [
-  {
-    "date": "Mar. 2025",
-    "title": "New Project Launched: <a href='https://github.com/dl-m9/Multi-Agent-Autonomous-Driving'>Multi-Agent Autonomous Driving</a>",
-    "content": "🔥🔥🔥 We launched a new project about Multi-Agent Autonomous Driving! This project will continuously collect papers from recent years in the field of multi-agent autonomous driving and is the most comprehensive repo in this field! Welcome to Star ⭐️ & Contribute!",
-    "links": [
-      {
-        "text": "Github Repository",
-        "url": "https://github.com/dl-m9/Multi-Agent-Autonomous-Driving"
-      }
-    ]
-  },
-  {
-    "date": "Feb. 2025",
-    "title": "PhD Qualification Success",
-    "content": "Senkang passed the PhD Qualifying Examination (QE)! He is now a PhD candidate! 🎉🎉🎉"
-  },
+
   {
     "date": "Jan. 2025",
-    "title": "Paper Accepted by ICRA'25",
-    "content": "One paper was accepted by The 2025 IEEE International Conference on Robotics and Automation (ICRA'25)!",
+    "title": "Paper Accepted by ICES'25",
+    "content": "One paper was accepted by The 2025 IEEE International Conference on Energy & Sustainability (ICES'25)!",
     "links": [
       {
         "text": "PDF",
-        "url": "https://arxiv.org/abs/2409.08840"
+        "url": "#"
       }
     ]
   },
   {
     "date": "Jan. 2025",
-    "title": "AAAI'25 Oral Presentation",
-    "content": "Our paper accepted by AAAI'25 was selected for Oral Presentation! Congratulations again 🎉!"
+    "title": "ESC'25 Oral Presentation",
+    "content": "Our paper on carbon capture technologies accepted by the Environmental Science Conference'25 was selected for Oral Presentation! Congratulations again 🎉!"
   },
   {
     "date": "Dec. 2024",
-    "title": "Paper Accepted by IEEE/ACM ToN",
-    "content": "One paper was accepted by IEEE/ACM Transactions on Networking (ToN)!",
+    "title": "Paper Accepted by JSD",
+    "content": "One paper was accepted by Journal of Sustainable Development (JSD)!",
     "links": [
       {
         "text": "PDF",
-        "url": "https://ieeexplore.ieee.org/document/10845862"
+        "url": "#"
       },
       {
         "text": "Code",
-        "url": "https://github.com/fangzr/PIB-Prioritized-Information-Bottleneck-Framework"
+        "url": "#"
       }
     ]
   },
   {
     "date": "Dec. 2024",
-    "title": "Paper Accepted by AAAI'25",
-    "content": "Congratulations 🎉! One paper was accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI'25), see you in Philadelphia, Pennsylvania, USA 🇺🇸!",
+    "title": "Paper Accepted by ESC'25",
+    "content": "Congratulations 🎉! One paper was accepted by The 39th Annual Environmental Science Conference (ESC'25), see you in Philadelphia, Pennsylvania, USA 🇺🇸!",
     "links": [
       {
         "text": "PDF",
-        "url": "https://arxiv.org/abs/2412.12000"
+        "url": "#"
       }
     ]
   },
   {
     "date": "Nov. 2024",
-    "title": "Paper Accepted by IEEE TITS",
-    "content": "One paper was accepted by IEEE Transactions on Intelligent Transportation Systems (TITS), congratulations 🎉!!!",
+    "title": "Paper Accepted by IEEE TEE",
+    "content": "One paper was accepted by IEEE Transactions on Environmental Engineering (TEE), congratulations 🎉!!!",
     "links": [
       {
         "text": "PDF",
-        "url": "https://ieeexplore.ieee.org/abstract/document/10779389"
+        "url": "#"
       }
     ]
   },
   {
     "date": "Nov. 2024",
-    "title": "IEEE ComSoc Student Grant Award",
-    "content": "Senkang was awarded the IEEE ComSoc Student Grant to support his conference travel."
+    "title": "EPA Research Grant Award",
+    "content": "Alex was awarded the EPA Research Grant to support his work on advanced water filtration technologies."
   },
   {
     "date": "Aug. 2024",
-    "title": "Paper Accepted by IEEE TMC",
-    "content": "One paper was accepted by IEEE Transactions on Mobile Computing (TMC)!"
+    "title": "Paper Accepted by IEEE TAE",
+    "content": "One paper was accepted by IEEE Transactions on Agricultural Engineering (TAE)!"
   },
   {
     "date": "Jul. 2024",
-    "title": "Two Papers Accepted by GLOBECOM'24",
-    "content": "Two papers were accepted by GLOBECOM'24, see you in Cape Town, South Africa 🇿🇦!"
+    "title": "Two Papers Accepted by GREC'24",
+    "content": "Two papers were accepted by the Global Renewable Energy Conference (GREC'24), see you in Cape Town, South Africa 🇿🇦!"
   },
   {
     "date": "Sep. 2023",
-    "title": "Institutional Research Tuition Grant",
-    "content": "Senkang was awarded the Institutional Research Tuition Grant, nearly HK$170,000."
+    "title": "University Research Tuition Grant",
+    "content": "Alex was awarded the University Research Tuition Grant, nearly $35,000."
   },
   {
     "date": "Jul. 2023",
-    "title": "Relocation to Hong Kong",
-    "content": "Congratulations to Senkang 🎉, finally moved to Hong Kong 🇭🇰🇭🇰🇭🇰 to start his new career!"
+    "title": "Relocation to West Coast",
+    "content": "Congratulations to Alex 🎉, finally moved to West Coast 🌉🌉🌉 to start his new career!"
   },
   {
     "date": "Jun. 2023",
-    "title": "InnoHK Award Funding",
-    "content": "Thanks to Prof. Fang's strong support, Senkang received the InnoHK Award Funding, around HK$900,000 from the Government of the Hong Kong Special Administrative Region to support his research and PhD career."
+    "title": "Innovation Research Funding",
+    "content": "Thanks to Prof. Williams's strong support, Alex received the Innovation Research Funding, around $150,000 from the West Coast State Government to support his research on renewable energy technologies."
   },
   {
     "date": "Jun. 2022",
-    "title": "Graduation from BIT",
-    "content": "Senkang graduated from Beijing Institute of Technology. Thanks to all the professors, senior students and friends who helped him in the past four years."
+    "title": "Graduation from NTU",
+    "content": "Alex graduated from Northern Technical University with honors in Environmental Engineering. Thanks to all the professors, senior students and friends who helped him in the past four years."
   },
   {
     "date": "Dec. 2021",
-    "title": "National Scholarship Award",
-    "content": "Senkang was awarded the National Scholarship for his top 1% academic performance in the whole department, which is the highest honor for Chinese university students."
+    "title": "Presidential Scholarship Award",
+    "content": "Alex was awarded the Presidential Scholarship for his top 1% academic performance in the Environmental Engineering department, which is the highest honor for university students in the country."
   }
 ] 
