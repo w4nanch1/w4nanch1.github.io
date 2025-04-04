@@ -7,7 +7,7 @@ A modern, responsive academic personal website template with clean design and JS
 
 - 📱 Fully responsive design that works seamlessly on all devices
 - 🎨 Clean, modern UI with intuitive navigation
-- 📊 JSON-powered content for easy updates (publications and news)
+- 📊 JSON-powered content for easy updates (profile, publications, and news)
 - 🔍 Publications section with filtering capability (All/Preprints/Accepted/First Author)
 - 📰 News section with "View All" capability 
 - 🌟 Interactive elements with smooth transitions
@@ -17,23 +17,23 @@ A modern, responsive academic personal website template with clean design and JS
 
 1. [Getting Started](#getting-started)
 2. [Project Structure](#project-structure)
-3. [Customization Guide](#customization-guide)
+3. [JSON Data Structure](#json-data-structure)
+4. [Customization Guide](#customization-guide)
    - [Basic Information](#basic-information)
    - [Profile Photo](#profile-photo)
+   - [Social Media & Contact Links](#social-media--contact-links)
    - [Education](#education)
    - [Research Interests](#research-interests)
    - [Publications](#publications)
    - [News](#news)
    - [Honors & Awards](#honors--awards)
    - [Services](#services)
-   - [Contact Information](#contact-information)
-   - [Social Media Links](#social-media-links)
-4. [Advanced Customization](#advanced-customization)
+5. [Advanced Customization](#advanced-customization)
    - [Color Scheme](#color-scheme)
    - [Font Changes](#font-changes)
    - [Section Ordering](#section-ordering)
-5. [Deployment](#deployment)
-6. [License](#license)
+6. [Deployment](#deployment)
+7. [License](#license)
 
 ## Getting Started
 
@@ -62,35 +62,134 @@ cd academic-homepage
 ├── assets/                 # Images and other static assets
 │   ├── profile.jpg         # Your profile photo
 │   ├── cityu-logo.jpeg     # University logo examples
-│   └── bit-logo.png        # University logo examples
+│   ├── bit-logo.png        # University logo examples
+│   ├── dblp.svg            # DBLP icon
+│   └── wechat.jpg          # WeChat QR code
 ├── data/                   # JSON data files
 │   ├── news.json           # News items data
-│   └── publications.json   # Publications data
+│   ├── publications.json   # Publications data
+│   └── profile-info.json   # Basic profile information
 └── pages/                  # Additional pages
     └── all-news.html       # Page displaying all news items
+```
+
+## JSON Data Structure
+
+This template uses JSON files to store data, making it easier to update content without modifying HTML code. There are three main JSON files:
+
+### 1. `data/profile-info.json`
+
+Contains personal information, social media links, and profile image path:
+
+```json
+{
+  "name": "YOUR NAME",
+  "subtitle": "PhD@CS, YOUR UNIVERSITY",
+  "socialLinks": [
+    {
+      "type": "email",
+      "url": "mailto:your.email@example.com",
+      "icon": "<i class=\"fas fa-envelope\"></i>"
+    },
+    {
+      "type": "linkedin",
+      "url": "https://www.linkedin.com/in/your-profile/",
+      "icon": "<i class=\"fab fa-linkedin\"></i>",
+      "target": "_blank"
+    }
+    // Add more social links as needed
+  ],
+  "profileImage": "assets/profile.jpg"
+}
+```
+
+### 2. `data/publications.json`
+
+Stores all publications with metadata for filtering:
+
+```json
+[
+  {
+    "number": 1,
+    "title": "Your Publication Title",
+    "authors": "<strong><u>Your Name</u></strong>, Co-author One, Co-author Two",
+    "type": "preprint",  // or "accepted"
+    "isFirstAuthor": true,  // or false
+    "venue": "Conference or Journal Name",  // optional, for accepted papers
+    "tags": [
+      {
+        "text": "Tag Label",
+        "class": "tag-class",
+        "link": "https://link-to-paper.com"  // optional
+      }
+    ]
+  }
+  // Add more publications here
+]
+```
+
+### 3. `data/news.json`
+
+Contains news and updates in chronological order:
+
+```json
+[
+  {
+    "date": "Month YYYY",
+    "title": "News Title",
+    "content": "News content description",
+    "links": [
+      {
+        "text": "Link Text",
+        "url": "https://link-url.com"
+      }
+    ]
+  }
+  // Add more news items here
+]
 ```
 
 ## Customization Guide
 
 ### Basic Information
 
-Edit the `index.html` file to update your basic information:
+Edit the `data/profile-info.json` file to update your basic information:
 
-1. **Name**: Replace "SENKANG 'FOREST' HU 🍀" with your name in the header section.
-2. **Title/Affiliation**: Update the subtitle with your position, university, and lab affiliations.
-3. **Short Bio**: Replace the text in the Biography section with your own introduction.
-
-Example:
-```html
-<h1>YOUR NAME</h1>
-<p class="subtitle">PhD Student @ Your University</p>
-```
+1. **Name**: Replace the `name` value with your name
+2. **Title/Affiliation**: Update the `subtitle` value with your position, university, and lab affiliations
+3. **Profile Image**: Update the `profileImage` value with the path to your profile photo
 
 ### Profile Photo
 
-1. Replace the `profile.jpg` in the `assets` folder with your own photo.
-2. Make sure your photo is properly cropped to a square or similar aspect ratio for best results.
-3. The recommended size is 500x500 pixels.
+1. Replace the `profile.jpg` in the `assets` folder with your own photo
+2. Make sure your photo is properly cropped to a square or similar aspect ratio for best results
+3. The recommended size is 500x500 pixels
+
+### Social Media & Contact Links
+
+Edit the `socialLinks` array in `data/profile-info.json`:
+
+```json
+"socialLinks": [
+  {
+    "type": "email",
+    "url": "mailto:your.email@example.com",
+    "icon": "<i class=\"fas fa-envelope\"></i>"
+  },
+  {
+    "type": "github",
+    "url": "https://github.com/yourusername",
+    "icon": "<i class=\"fab fa-github\"></i>",
+    "target": "_blank"
+  }
+]
+```
+
+For each link, specify:
+- `type`: A unique identifier for the link type
+- `url`: The URL to link to
+- `icon`: HTML for the icon (using Font Awesome or custom SVG)
+- `target`: Optional, set to "_blank" to open in a new tab
 
 ### Education
 
@@ -116,7 +215,7 @@ Update the education timeline in `index.html`:
 </div>
 ```
 
-2. Add your university logos to the `assets` folder and update the image paths.
+2. Add your university logos to the `assets` folder and update the image paths
 
 ### Research Interests
 
@@ -134,14 +233,12 @@ Modify the research interests section in `index.html`:
 </div>
 ```
 
-2. You can find suitable Font Awesome icons at [Font Awesome](https://fontawesome.com/icons).
+2. You can find suitable Font Awesome icons at [Font Awesome](https://fontawesome.com/icons)
 
 ### Publications
 
-Publications are loaded dynamically from `data/publications.json`:
+Edit the `data/publications.json` file to include your publications. Each publication should follow this structure:
 
-1. Edit this JSON file to include your publications.
-2. Each publication should follow this structure:
 ```json
 {
   "number": 1,
@@ -152,22 +249,25 @@ Publications are loaded dynamically from `data/publications.json`:
   "venue": "Conference or Journal Name",  // optional, for accepted papers
   "tags": [
     {
-      "text": "Tag Label",
-      "class": "tag-class",
-      "link": "https://link-to-paper.com"  // optional
+      "text": "PDF",
+      "class": "code-tag",
+      "link": "https://link-to-paper.com"
     }
   ]
 }
 ```
 
-3. Highlight your name using `<strong>` and `<u>` tags.
-4. Set `isFirstAuthor` to true for papers where you are the first author or have equal contribution.
+- Highlight your name using `<strong>` and `<u>` tags
+- Set `isFirstAuthor` to true for papers where you are the first author or have equal contribution
+- Use the following classes for tags:
+  - `preprint-tag` for preprints
+  - `venue-tag` for conference/journal names
+  - `code-tag` for links to code, PDFs, etc.
 
 ### News
 
-News items are loaded from `data/news.json`:
+Edit the `data/news.json` file to include your news items:
 
-1. Edit this file to include your news items:
 ```json
 {
   "date": "Month YYYY",
@@ -182,8 +282,7 @@ News items are loaded from `data/news.json`:
 }
 ```
 
-2. You can include HTML in the title and content fields if needed.
-3. The most recent news items will appear on the homepage, with all items available on the all-news page.
+You can include HTML in the title and content fields if needed. The most recent news items will appear on the homepage, with all items available on the all-news page.
 
 ### Honors & Awards
 
@@ -212,27 +311,6 @@ Modify the services section in `index.html` to list your professional services:
         <li>Service Item 2</li>
         <!-- Add more items as needed -->
     </ul>
-</div>
-```
-
-### Contact Information
-
-Update your contact information in the header and location sections:
-
-1. **Email**: Replace the email address in the contact links.
-2. **Address**: Update your office address in the location section.
-3. **Map**: Replace the Google Maps iframe with your location coordinates.
-
-### Social Media Links
-
-The template includes social media icon links in the header. Modify as needed:
-
-```html
-<div class="contact-info">
-    <p><a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a></p>
-    <p><a href="assets/wechat.jpg" target="_blank"><i class="fab fa-weixin"></i></a></p>
-    <p><a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank"><i class="fas fa-graduation-cap"></i></a></p>
-    <p><a href="https://www.linkedin.com/in/your-profile/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
 </div>
 ```
 
@@ -272,8 +350,8 @@ body {
 
 To reorder sections:
 
-1. Rearrange the `<section>` elements in the `index.html` file.
-2. Update the navigation links accordingly to maintain proper scrolling.
+1. Rearrange the `<section>` elements in the `index.html` file
+2. Update the navigation links accordingly to maintain proper scrolling
 
 ## Deployment
 

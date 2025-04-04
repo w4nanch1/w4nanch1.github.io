@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Load profile information
+    loadProfileInfo();
+
     // Publication filters - including "First Author" for publications where user is first author or has equal contribution
     const filterBtns = document.querySelectorAll('.filter-btn');
     const publications = document.querySelectorAll('.publication');
@@ -108,6 +111,80 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Error loading news data:', error);
         });
 });
+
+// Function to load profile information
+function loadProfileInfo() {
+    let profileJsonPath = 'data/profile-info.json';
+    let isSubpage = window.location.pathname.includes('/pages/');
+    if (isSubpage) {
+        profileJsonPath = '../data/profile-info.json';
+    }
+
+    // Get profile-info container
+    const profileInfoContainer = document.querySelector('.profile-info');
+    if (!profileInfoContainer) return;
+
+    fetch(profileJsonPath)
+        .then(response => response.json())
+        .then(data => {
+            // Clear existing content
+            profileInfoContainer.innerHTML = '';
+            
+            // Add name
+            const nameElement = document.createElement('h1');
+            nameElement.textContent = data.name;
+            profileInfoContainer.appendChild(nameElement);
+            
+            // Add subtitle
+            const subtitleElement = document.createElement('p');
+            subtitleElement.className = 'subtitle';
+            subtitleElement.innerHTML = data.subtitle;
+            profileInfoContainer.appendChild(subtitleElement);
+            
+            // Add social links container
+            const contactInfo = document.createElement('div');
+            contactInfo.className = 'contact-info';
+            
+            // Add each social link
+            data.socialLinks.forEach(link => {
+                const linkContainer = document.createElement('p');
+                const anchor = document.createElement('a');
+                // Adjust URL paths for subpages
+                if (isSubpage && link.url.startsWith('assets/')) {
+                    anchor.href = '../' + link.url;
+                } else {
+                    anchor.href = link.url;
+                }
+                
+                if (link.target) {
+                    anchor.target = link.target;
+                }
+                
+                // Fix SVG icon paths for subpages
+                let iconHtml = link.icon;
+                if (isSubpage && link.type === 'dblp') {
+                    iconHtml = iconHtml.replace('src="assets/', 'src="../assets/');
+                }
+                
+                anchor.innerHTML = iconHtml;
+                linkContainer.appendChild(anchor);
+                contactInfo.appendChild(linkContainer);
+            });
+            
+            profileInfoContainer.appendChild(contactInfo);
+            
+            // Update profile image if there's a profile-image container
+            const profileImageContainer = document.querySelector('.profile-image img');
+            if (profileImageContainer && data.profileImage) {
+                profileImageContainer.src = isSubpage ? 
+                    '../' + data.profileImage : data.profileImage;
+                profileImageContainer.alt = data.name;
+            }
+        })
+        .catch(error => {
+            console.error('Error loading profile information:', error);
+        });
+}
 
 // Function to load publications from JSON
 function loadPublications() {
