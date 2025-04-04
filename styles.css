@@ -219,6 +219,21 @@ nav {
     nav {
         position: relative;
     }
+    
+    .timeline {
+        padding-left: 25px;
+    }
+    
+    .timeline::before {
+        left: 7px;
+        height: 85%;
+    }
+    
+    .timeline-marker {
+        left: -18px;
+        width: 18px;
+        height: 18px;
+    }
 }
 
 /* Section Styles */
@@ -431,10 +446,10 @@ nav {
     content: '';
     position: absolute;
     left: 9px;
-    top: 25px;
-    height: 60%;
+    top: 0;
+    height: 100%;
     width: 2px;
-    background-color: var(--primary-color);
+    background-color: #d0d0d0;
     z-index: 0;
 }
 
@@ -456,8 +471,8 @@ nav {
 
 .timeline-marker {
     position: absolute;
+    top: 20px;
     left: -29.5px;
-    top: 25px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -1067,6 +1082,7 @@ footer {
     
     .timeline::before {
         left: 7px;
+        height: 85%;
     }
     
     .timeline-marker {
