@@ -1183,3 +1183,14 @@ footer {
         font-size: 0.9rem !important;
     }
 }
+
+/* Visitors Section */
+.visitors-section {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.visitors-section .section-title {
+    margin: 0 auto 2rem;
+}
