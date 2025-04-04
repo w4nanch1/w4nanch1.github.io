@@ -6,6 +6,9 @@ A modern, responsive academic personal website template with clean design and JS
 ## Features
 
 - 📱 Fully responsive design that works seamlessly on all devices
+  - Optimized mobile navigation with smooth horizontal scrolling
+  - Smart active link centering and visual scroll indicators
+  - Adaptive layout for various screen sizes
 - 🎨 Clean, modern UI with intuitive navigation
 - 📊 JSON-powered content for easy updates (profile, publications, and news)
 - 🔍 Publications section with filtering capability (All/Preprints/Accepted/First Author)
@@ -29,6 +32,7 @@ A modern, responsive academic personal website template with clean design and JS
    - [Honors & Awards](#honors--awards)
    - [Services](#services)
 5. [Advanced Customization](#advanced-customization)
+   - [Mobile Optimization](#mobile-optimization)
    - [Color Scheme](#color-scheme)
    - [Font Changes](#font-changes)
    - [Section Ordering](#section-ordering)
@@ -315,6 +319,38 @@ Modify the services section in `index.html` to list your professional services:
 ```
 
 ## Advanced Customization
+
+### Mobile Optimization
+
+This template includes several mobile-specific optimizations:
+
+1. **Horizontal Navigation Scroll**:
+   - The navigation bar automatically adapts to mobile devices with a horizontal scrolling interface
+   - Visual gradient indicators appear when there's more content to scroll to
+   - Active navigation items are automatically centered for better visibility
+   - Smooth scrolling with touch momentum for an app-like feel
+
+2. **Responsive Timeline**:
+   - Timeline markers are hidden on mobile for a cleaner interface
+   - Educational information is reordered for better mobile presentation
+   - School logos and educational information adapt to different screen sizes
+
+3. **Adaptive Content Layout**:
+   - Content cards in honors, news, and services sections stack vertically on mobile
+   - Font sizes and spacing automatically adjust for readability on smaller screens
+   - Interactive elements have appropriate touch targets for mobile usability
+
+To customize mobile behavior further, edit the media queries in the `styles.css` file:
+
+```css
+@media (max-width: 768px) {
+    /* Tablet and mobile styles */
+}
+
+@media (max-width: 576px) {
+    /* Small mobile styles */
+}
+```
 
 ### Color Scheme
 

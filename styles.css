@@ -193,6 +193,7 @@ nav {
         z-index: 1000;
         background-color: #fff;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
     }
     
     body {
@@ -200,22 +201,32 @@ nav {
     }
     
     .nav-links {
+        display: flex;
+        justify-content: flex-start;
         overflow-x: auto;
-        white-space: nowrap;
-        width: 100%;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+        white-space: nowrap;
         padding: 0.5rem 0;
         height: auto;
+        width: 100%;
+        margin: 0;
     }
     
     .nav-links::-webkit-scrollbar {
-        display: none;  /* Chrome, Safari, Opera */
+        display: none; /* Chrome, Safari, Opera */
+    }
+    
+    nav .container {
+        padding: 0;
+        position: relative;
     }
     
     .nav-links li {
         display: inline-block;
         margin: 0 0.8rem;
+        flex-shrink: 0;
     }
     
     .nav-links li:first-child {
@@ -224,12 +235,45 @@ nav {
     
     .nav-links li:last-child {
         margin-right: 15px;
+        padding-right: 5px; /* Add a bit of padding at the end for better scrolling */
     }
     
     .nav-links a {
         height: auto;
         line-height: normal;
         padding: 0.5rem 0;
+        font-size: 0.95rem;
+        white-space: nowrap;
+    }
+    
+    /* Add gradient indicators to show there's more content */
+    nav .container::before,
+    nav .container::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 20px;
+        z-index: 10;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    nav .container::before {
+        left: 0;
+        background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+    }
+    
+    nav .container::after {
+        right: 0;
+        background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
+    }
+    
+    /* Only show gradients if has-scroll class is present */
+    nav .container.has-scroll::before,
+    nav .container.has-scroll::after {
+        opacity: 1;
     }
     
     .section {
@@ -314,33 +358,6 @@ nav {
     .address-description {
         font-size: 0.9rem !important;
     }
-    
-    /* Add gradient indicators to show there's more content */
-    nav .container {
-        position: relative;
-        padding: 0 5px;
-    }
-    
-    nav .container::before,
-    nav .container::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 20px;
-        z-index: 10;
-        pointer-events: none;
-    }
-    
-    nav .container::before {
-        left: 0;
-        background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
-    }
-    
-    nav .container::after {
-        right: 0;
-        background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
-    }
 }
 
 @media (max-width: 576px) {
@@ -360,9 +377,17 @@ nav {
         margin: 0 0.6rem;
     }
     
+    .nav-links li:first-child {
+        margin-left: 10px;
+    }
+    
+    .nav-links li:last-child {
+        margin-right: 10px;
+    }
+    
     .nav-links a {
         font-size: 0.9rem;
-        padding: 8px 0;
+        padding: 0.4rem 0;
     }
     
     .container nav::before,
