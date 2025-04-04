@@ -180,15 +180,27 @@ nav {
 }
 
 @media (max-width: 768px) {
+    /* Mobile Navigation */
     .menu-toggle {
         display: none;
     }
     
     nav {
-        position: relative;
-        padding: 5px 0;
+        position: fixed;
+        padding: 0;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    body {
+        padding-top: 50px; /* Adjust padding to match nav height */
     }
     
     .nav-links {
@@ -200,7 +212,7 @@ nav {
         height: auto;
         top: auto;
         left: auto;
-        padding: 8px 0;
+        padding: 12px 0;
         box-shadow: none;
         max-height: none;
         overflow: visible;
@@ -217,6 +229,11 @@ nav {
     /* Hide scrollbar for Chrome, Safari and Opera */
     .nav-links::-webkit-scrollbar {
         display: none;
+    }
+    
+    /* Container inside nav needs adjusting for fixed nav */
+    nav .container {
+        padding: 0 10px;
     }
     
     .nav-links li {
@@ -274,6 +291,28 @@ nav {
         background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
     }
     
+    /* Other responsive elements */
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .section {
+        padding: 3rem 0;
+    }
+    
+    #profile-img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .gallery-container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
     .timeline {
         padding-left: 25px;
     }
@@ -287,6 +326,131 @@ nav {
         left: -18px;
         width: 18px;
         height: 18px;
+    }
+    
+    .edu-content-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .edu-text {
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .school-logo {
+        align-self: center;
+    }
+    
+    .edu-logo {
+        width: 80px;
+    }
+    
+    .honor-item {
+        flex-direction: column;
+    }
+    
+    .honor-year {
+        margin-bottom: 0.75rem;
+        margin-right: 0;
+    }
+    
+    .news-item {
+        flex-direction: column;
+    }
+    
+    .news-date {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .service-list {
+        gap: 0.5rem;
+    }
+    
+    .service-list li {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.8rem;
+    }
+    
+    .address-info p {
+        font-size: 1rem;
+    }
+    
+    .address-description {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        padding: 0;
+    }
+    
+    body {
+        padding-top: 42px; /* Adjust padding for smaller screens */
+    }
+    
+    .nav-links {
+        height: auto;
+        padding: 8px 0;
+    }
+    
+    .nav-links li {
+        margin: 0 10px;
+    }
+    
+    .nav-links a {
+        font-size: 0.9rem;
+        padding: 8px 0;
+    }
+    
+    .container nav::before,
+    .container nav::after {
+        width: 20px;
+    }
+    
+    .contact-info {
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+    }
+    
+    .contact-info a {
+        width: 38px;
+        height: 38px;
+        padding: 6px;
+    }
+    
+    .contact-info i {
+        font-size: 1.5rem;
+    }
+    
+    .icon-svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .skill-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .skill-name {
+        margin-bottom: 0.5rem;
+    }
+    
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info-card {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-social {
+        grid-column: span 1;
     }
 }
 
