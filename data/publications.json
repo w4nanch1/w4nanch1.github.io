@@ -247,48 +247,6 @@
         "link": "#"
       }
     ]
-  },
-  {
-    "number": 14,
-    "title": "WaterWise: Smart Irrigation Systems for Drought-Prone Agricultural Regions",
-    "authors": "Sarah Johnson, <strong><u>Alexander \"Alex\" Morgan</u></strong>, Kevin Miller, Richard Davis, Lisa Wang, Christopher Harris, Emily White, Robert Williams",
-    "type": "accepted",
-    "isFirstAuthor": false,
-    "venue": "IEEE Transactions on Agricultural Engineering.",
-    "tags": [
-      {
-        "text": "TAE'24",
-        "class": "venue-tag"
-      },
-      {
-        "text": "PDF",
-        "class": "code-tag",
-        "link": "#"
-      }
-    ]
-  },
-  {
-    "number": 15,
-    "title": "BioChar: Optimized Production Methods for Carbon Sequestration and Soil Enhancement",
-    "authors": "Sarah Johnson, <strong><u>Alexander \"Alex\" Morgan</u></strong>, Robert Williams, et al.",
-    "type": "accepted",
-    "isFirstAuthor": false,
-    "venue": "Global Climate Solutions Conference, Cape Town, South Africa, December 2024.",
-    "tags": [
-      {
-        "text": "GCSC'24",
-        "class": "venue-tag"
-      },
-      {
-        "text": "PDF",
-        "class": "code-tag",
-        "link": "#"
-      },
-      {
-        "text": "Code",
-        "class": "code-tag",
-        "link": "#"
-      }
-    ]
   }
+
 ] 
