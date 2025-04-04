@@ -1,6 +1,6 @@
 # Personal Academic Homepage for Senkang Hu
 
-This is a modern, minimalist personal academic website for Senkang Hu, a PhD candidate in Computer Science at City University of Hong Kong.
+This is a modern, minimalist personal academic website 
 
 ## Features
 
