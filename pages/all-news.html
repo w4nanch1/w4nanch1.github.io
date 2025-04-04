@@ -24,6 +24,7 @@
 
     <nav>
         <div class="container">
+            <button class="menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="#" class="active">All News</a></li>
@@ -54,6 +55,18 @@
     <script>
         // Set copyright year
         document.getElementById('copyright-year').textContent = new Date().getFullYear();
+        
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+        
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('.nav-links').classList.remove('open');
+            });
+        });
     </script>
     <script src="../script.js"></script>
 </body>
