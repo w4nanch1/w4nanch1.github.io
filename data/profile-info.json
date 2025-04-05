@@ -32,21 +32,9 @@
       "target": "_blank"
     },
     {
-      "type": "facebook",
-      "url": "#",
-      "icon": "<i class=\"fab fa-facebook\"></i>",
-      "target": "_blank"
-    },
-    {
       "type": "instagram",
       "url": "#",
       "icon": "<i class=\"fab fa-instagram\"></i>",
-      "target": "_blank"
-    },
-    {
-      "type": "twitter",
-      "url": "#",
-      "icon": "<i class=\"fab fa-twitter\"></i>",
       "target": "_blank"
     },
     {
