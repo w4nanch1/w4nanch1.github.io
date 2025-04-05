@@ -2,6 +2,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load profile information
     loadProfileInfo();
 
+    // Make all links open in a new tab
+    makeAllLinksOpenInNewTab();
+
+    // Set up MutationObserver to watch for dynamically added links
+    setupLinkObserver();
+
     // Publication filters - including "First Author" for publications where user is first author or has equal contribution
     const filterBtns = document.querySelectorAll('.filter-btn');
     const publications = document.querySelectorAll('.publication');
@@ -156,8 +162,11 @@ function loadProfileInfo() {
                     anchor.href = link.url;
                 }
                 
+                // Set target attribute - either from JSON or default to "_blank" for external links
                 if (link.target) {
                     anchor.target = link.target;
+                } else if (link.url && !link.url.startsWith('#')) {
+                    anchor.target = '_blank';
                 }
                 
                 // Fix SVG icon paths for subpages
@@ -246,6 +255,10 @@ function loadPublications() {
                         tagLink.href = tag.link;
                         tagLink.className = `tag ${tag.class}`;
                         tagLink.textContent = tag.text;
+                        // Add target="_blank" for links
+                        if (!tag.link.startsWith('#')) {
+                            tagLink.setAttribute('target', '_blank');
+                        }
                         tagsContainer.appendChild(tagLink);
                     } else {
                         const tagSpan = document.createElement('span');
@@ -322,6 +335,10 @@ function renderNewsItems(newsData, containerId) {
                 const linkElement = document.createElement('a');
                 linkElement.href = link.url;
                 linkElement.textContent = link.text;
+                // Add target="_blank" for external links
+                if (link.url && !link.url.startsWith('#')) {
+                    linkElement.setAttribute('target', '_blank');
+                }
                 paragraphElement.appendChild(linkElement);
             });
         }
@@ -334,6 +351,10 @@ function renderNewsItems(newsData, containerId) {
             const linkElement = document.createElement('a');
             linkElement.href = newsItem.link;
             linkElement.textContent = newsItem.linkText;
+            // Add target="_blank" for external links
+            if (newsItem.link && !newsItem.link.startsWith('#')) {
+                linkElement.setAttribute('target', '_blank');
+            }
             paragraphElement.appendChild(linkElement);
         }
         
@@ -346,4 +367,73 @@ function renderNewsItems(newsData, containerId) {
         // Add the news item to the container
         container.appendChild(newsElement);
     });
+}
+
+// Function to make all links open in a new tab
+function makeAllLinksOpenInNewTab() {
+    // Get all links in the document
+    const links = document.querySelectorAll('a');
+    
+    // Loop through each link
+    links.forEach(link => {
+        const href = link.getAttribute('href');
+        // Skip navigation links (links that start with #) and links without href
+        if (href && !href.startsWith('#')) {
+            // Set target to _blank to open in a new tab
+            link.setAttribute('target', '_blank');
+        }
+    });
+}
+
+// Function to set up a MutationObserver to watch for new links
+function setupLinkObserver() {
+    // Select the target node (in this case, the entire document body)
+    const targetNode = document.body;
+    
+    // Options for the observer (which mutations to observe)
+    const config = { 
+        childList: true, // observe direct children
+        subtree: true, // and lower descendants too
+        characterData: false, // don't care about text changes
+        attributes: false // don't care about attribute changes
+    };
+    
+    // Callback function to execute when mutations are observed
+    const callback = function(mutationsList, observer) {
+        // Check if any new nodes were added
+        let newLinksAdded = false;
+        
+        for (const mutation of mutationsList) {
+            if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+                // Check if any of the added nodes are links or contain links
+                for (const node of mutation.addedNodes) {
+                    if (node.nodeType === 1) { // ELEMENT_NODE
+                        if (node.tagName === 'A') {
+                            newLinksAdded = true;
+                            break;
+                        } else if (node.querySelectorAll) {
+                            const links = node.querySelectorAll('a');
+                            if (links.length > 0) {
+                                newLinksAdded = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            if (newLinksAdded) break;
+        }
+        
+        // If new links were added, update them to open in new tabs
+        if (newLinksAdded) {
+            makeAllLinksOpenInNewTab();
+        }
+    };
+    
+    // Create an observer instance linked to the callback function
+    const observer = new MutationObserver(callback);
+    
+    // Start observing the target node for configured mutations
+    observer.observe(targetNode, config);
 } 
