@@ -525,8 +525,3 @@ This project is available under the MIT License. You are free to use, modify, an
 
 When using this template, attribution is appreciated but not required.
 
----
-
-**Last Updated:** May 2024  
-**Created By:** Alexander Morgan  
-**Contact:** alex.morgan@example.com
