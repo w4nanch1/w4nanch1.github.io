@@ -12,8 +12,6 @@ A modern, responsive academic personal website showcasing expertise in environme
   - Mobile-optimized navigation with smooth horizontal scrolling
   - Smart active link centering and visual scroll indicators
   - Adaptive layout for various screen sizes
-- 🌱 **Environmental Engineering Focus**: Specifically designed for showcasing research in sustainable technologies
-- 🔋 **Renewable Energy Research Portfolio**: Organized structure for presenting work on solar energy, microgrids, carbon capture, and water treatment
 - 📊 **Dynamic Content**: JSON-powered content management for easy updates without HTML editing
 - 🔍 **Publication Management**: 
   - Filtering system (All/Preprints/Accepted/First Author)
