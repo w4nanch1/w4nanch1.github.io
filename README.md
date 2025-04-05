@@ -4,6 +4,8 @@ A modern, responsive academic personal website showcasing expertise in environme
 
 ![Website Preview](assets/preview.png)
 
+**Check out the [live demo](https://academic-homepage-modernism.netlify.app/).**
+
 ## Features
 
 - 📱 **Fully Responsive Design**: Adapts seamlessly to all devices from desktops to mobile phones
