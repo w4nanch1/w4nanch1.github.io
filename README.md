@@ -1,4 +1,4 @@
-# Alexander Morgan's Academic Portfolio - Environmental Engineering & Renewable Energy
+# Academic Homepage Modernism
 
 A modern, responsive academic personal website showcasing expertise in environmental engineering and renewable energy research. This website is designed for researchers, professors, and PhD students specializing in environmental sustainability, renewable energy systems, carbon capture, and water treatment innovations.
 
