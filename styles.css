@@ -789,6 +789,23 @@ nav {
     font-weight: 600;
 }
 
+.pub-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    min-width: 130px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.pub-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
 .pub-content {
     padding: 1.5rem;
     flex: 1;
@@ -1321,6 +1338,12 @@ footer {
     .honor-year {
         margin-bottom: 0.75rem;
         margin-right: 0;
+    }
+    
+    .pub-image-container {
+        width: 100px;
+        min-width: 100px;
+        padding: 8px;
     }
 }
 

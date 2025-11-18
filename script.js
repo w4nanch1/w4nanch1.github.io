@@ -217,10 +217,29 @@ function loadPublications() {
                 if (pub.isFirstAuthor) classes.push('first-author');
                 pubElement.className = classes.join(' ');
                 
-                // Create publication number
-                const numberElement = document.createElement('span');
-                numberElement.className = 'pub-number';
-                numberElement.textContent = pub.number;
+                // Create publication number or image
+                if (pub.image) {
+                    // If image exists, create image element instead of number
+                    const imageElement = document.createElement('div');
+                    imageElement.className = 'pub-image-container';
+                    const img = document.createElement('img');
+                    // Adjust image path for subpages
+                    let imagePath = pub.image;
+                    if (window.location.pathname.includes('/pages/') && !imagePath.startsWith('http') && !imagePath.startsWith('../')) {
+                        imagePath = '../' + imagePath;
+                    }
+                    img.src = imagePath;
+                    img.alt = pub.title || 'Publication image';
+                    img.className = 'pub-image';
+                    imageElement.appendChild(img);
+                    pubElement.appendChild(imageElement);
+                } else {
+                    // Create publication number
+                    const numberElement = document.createElement('span');
+                    numberElement.className = 'pub-number';
+                    numberElement.textContent = pub.number;
+                    pubElement.appendChild(numberElement);
+                }
                 
                 // Create publication content container
                 const contentElement = document.createElement('div');
@@ -270,8 +289,7 @@ function loadPublications() {
                 
                 contentElement.appendChild(tagsContainer);
                 
-                // Combine elements and add to publications list
-                pubElement.appendChild(numberElement);
+                // Add content to publication element (number/image already added above)
                 pubElement.appendChild(contentElement);
                 publicationsList.appendChild(pubElement);
             });
