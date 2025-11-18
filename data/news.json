@@ -23,14 +23,25 @@
     "links": [
       {
         "text": "Arxiv",
-        "url": "#"
+        "url": "https://vagen-ai.github.io/vagen_paper.pdf"
       },
       {
         "text": "website",
-        "url": "#"
+        "url": "https://vagen-ai.github.io/"
+      }
+    ]
+  },
+  {
+    "date": "Dec. 2022",
+    "dateImage": "publication/tsstnet/tsstnet.png",
+    "title": "TSSTNet: A Two-Stream Swin Transformer Network for Salient Object Detection of No-Service Rail Surface Defects",
+    "content": "Coatings \n Chi Wan, Shuai Ma and Kechen Song",
+    "links": [
+      {
+        "text": "paper",
+        "url": "https://www.mdpi.com/2079-6412/12/11/1730"
       }
     ]
   }
-
 
 ] 
