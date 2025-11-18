@@ -1,54 +1,54 @@
 {
-  "name": "ALEXANDER \"ALEX\" MORGAN 🍀",
-  "subtitle": "PhD@CS, WCU &nbsp;&nbsp;  BEng@EE, NTU<br><a href=\"#\">Center for AI and Smart Systems</a><br><a href=\"#\">Autonomous Systems and Connected Technologies Lab (ASCT)</a>",
+  "name": "Chi Wan (万驰)",
+  "subtitle": "MS@CE Northwestern University<br><a href=\"https://www.mll.lab.northwestern.edu/\">Machine Learning and Language Lab</a>",
   "socialLinks": [
     {
       "type": "email",
-      "url": "mailto:alex.morgan@example.com",
+      "url": "mailto:chiwan2026@u.northwestern.edu",
       "icon": "<i class=\"fas fa-envelope\"></i>"
     },
-    {
-      "type": "wechat",
-      "url": "assets/wechat.jpg",
-      "icon": "<i class=\"fab fa-weixin\"></i>",
-      "target": "_blank"
-    },
-    {
-      "type": "googleScholar",
-      "url": "#",
-      "icon": "<i class=\"fas fa-graduation-cap\"></i>",
-      "target": "_blank"
-    },
-    {
-      "type": "linkedin",
-      "url": "#",
-      "icon": "<i class=\"fab fa-linkedin\"></i>",
-      "target": "_blank"
-    },
+    // {
+    //   "type": "wechat",
+    //   "url": "assets/wechat.jpg",
+    //   "icon": "<i class=\"fab fa-weixin\"></i>",
+    //   "target": "_blank"
+    // },
+    // {
+    //   "type": "googleScholar",
+    //   "url": "#",
+    //   "icon": "<i class=\"fas fa-graduation-cap\"></i>",
+    //   "target": "_blank"
+    // },
+    // {
+    //   "type": "linkedin",
+    //   "url": "#",
+    //   "icon": "<i class=\"fab fa-linkedin\"></i>",
+    //   "target": "_blank"
+    // },
     {
       "type": "github",
       "url": "#",
       "icon": "<i class=\"fab fa-github\"></i>",
       "target": "_blank"
-    },
-    {
-      "type": "instagram",
-      "url": "#",
-      "icon": "<i class=\"fab fa-instagram\"></i>",
-      "target": "_blank"
-    },
-    {
-      "type": "dblp",
-      "url": "#",
-      "icon": "<img src=\"assets/dblp.svg\" alt=\"DBLP\" class=\"icon-svg\">",
-      "target": "_blank"
-    },
-    {
-      "type": "researchgate",
-      "url": "#",
-      "icon": "<i class=\"fab fa-researchgate\"></i>",
-      "target": "_blank"
     }
+    // {
+    //   "type": "instagram",
+    //   "url": "#",
+    //   "icon": "<i class=\"fab fa-instagram\"></i>",
+    //   "target": "_blank"
+    // },
+    // {
+    //   "type": "dblp",
+    //   "url": "#",
+    //   "icon": "<img src=\"assets/dblp.svg\" alt=\"DBLP\" class=\"icon-svg\">",
+    //   "target": "_blank"
+    // },
+    // {
+    //   "type": "researchgate",
+    //   "url": "#",
+    //   "icon": "<i class=\"fab fa-researchgate\"></i>",
+    //   "target": "_blank"
+    // }
   ],
-  "profileImage": "assets/profile.jpg"
+  "profileImage": "assets/profile.png"
 } 
