@@ -1,6 +1,6 @@
 {
   "name": "Chi Wan (万驰)",
-  "subtitle": "MS@Computer Engineering, Northwestern University<br><a href=\"https://www.mll.lab.northwestern.edu/\">Machine Learning and Language Lab</a>",
+  "subtitle": "MS@Computer Engineering <br> Northwestern University <br> <a href=\"https://www.mll.lab.northwestern.edu/\">Machine Learning and Language Lab</a>",
   "socialLinks": [
     {
       "type": "email",
@@ -16,7 +16,7 @@
     {
       "type": "twitter",
       "url": "https://x.com/w4nanch1",
-      "icon": "<i class=\"fab fa-x-twitter\"></i>",
+      "icon": "<i class=\"fab fa-twitter\"></i>",
       "target": "_blank"
     }
   ],
