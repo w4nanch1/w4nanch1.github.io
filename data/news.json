@@ -1,8 +1,9 @@
 [
   {
     "date": "Nov. 2025",
+    "dateImage": "assets/date-image.png",
     "title": "WorldAgen: Unified State-Action Prediction with Test-Time World Model Training",
-    "content": "Chi Wan*, Kangrui Wang*, Yuan Si, Pingyue Zhang, Huang Huang, Manling Li \nAccepted by AAAI'2026 <img src=\"publication/worldagen/worldagen.png\" alt=\"Conference\" style=\"max-width: 100%; border-radius: 4px; margin: 10px 0;\">",
+    "content": "Accepted by AAAI'2026 \n Chi Wan*, Kangrui Wang*, Yuan Si, Pingyue Zhang, Huang Huang, Manling Li",
     "links": [
       {
         "text": "Arxiv",

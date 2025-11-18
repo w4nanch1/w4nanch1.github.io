@@ -298,10 +298,26 @@ function renderNewsItems(newsData, containerId) {
         const dateElement = document.createElement('div');
         dateElement.className = 'news-date';
         
-        const dateHighlight = document.createElement('span');
-        dateHighlight.className = 'year-highlight';
-        dateHighlight.textContent = newsItem.date;
-        dateElement.appendChild(dateHighlight);
+        // Check if dateImage exists, if so use image, otherwise use text
+        if (newsItem.dateImage) {
+            const dateImage = document.createElement('img');
+            // Adjust image path for subpages
+            let imagePath = newsItem.dateImage;
+            if (window.location.pathname.includes('/pages/') && !imagePath.startsWith('http') && !imagePath.startsWith('../')) {
+                imagePath = '../' + imagePath;
+            }
+            dateImage.src = imagePath;
+            dateImage.alt = newsItem.date || 'News date';
+            dateImage.style.maxWidth = '130px';
+            dateImage.style.height = 'auto';
+            dateImage.style.borderRadius = '4px';
+            dateElement.appendChild(dateImage);
+        } else {
+            const dateHighlight = document.createElement('span');
+            dateHighlight.className = 'year-highlight';
+            dateHighlight.textContent = newsItem.date;
+            dateElement.appendChild(dateHighlight);
+        }
         
         // Create the content element
         const contentElement = document.createElement('div');
