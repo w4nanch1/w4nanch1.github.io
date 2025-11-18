@@ -1,9 +1,25 @@
 [
   {
     "date": "Nov. 2025",
-    "dateImage": "assets/date-image.png",
+    "dateImage": "publication/worldagen/worldagen.png",
     "title": "WorldAgen: Unified State-Action Prediction with Test-Time World Model Training",
-    "content": "Accepted by AAAI'2026 \n Chi Wan*, Kangrui Wang*, Yuan Si, Pingyue Zhang, Huang Huang, Manling Li",
+    "content": "AAAI'2026 \n Chi Wan*, Kangrui Wang*, Yuan Si, Pingyue Zhang, Huang Huang, Manling Li",
+    "links": [
+      {
+        "text": "Arxiv",
+        "url": "#"
+      },
+      {
+        "text": "website",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "date": "April. 2025",
+    "dateImage": "publication/vagen/vagen.png",
+    "title": "VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents",
+    "content": "NeurIPS'2025 \n Kangrui Wang*, Pingyue Zhang*, Zihan Wang*, Yaning Gao*, Linjie Li*, Qineng Wang, Hanyang Chen, Chi Wan, Yiping Lu, Zhengyuan Yang, Lijuan Wang, Ranjay Krishna, Jiajun Wu, Li Fei-Fei, Yejin Choi, Manling Li",
     "links": [
       {
         "text": "Arxiv",
@@ -15,5 +31,6 @@
       }
     ]
   }
+
 
 ] 
