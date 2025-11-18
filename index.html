@@ -26,10 +26,7 @@
         <div class="container">
             <ul class="nav-links">
                 <li><a href="#about" class="active">Biography</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#research">Research</a></li>
                 <li><a href="#publications">Publications</a></li>
-                <li><a href="#honors">Honors</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#location">Contact</a></li>
             </ul>
@@ -39,80 +36,39 @@
     <main>
         <section id="about" class="section">
             <div class="container">
-                <h2 class="section-title">Biography</h2>
-                <div class="about-content">
-                    <p>👋 Hi, I'm Chi! I am currently a graduate student in Computer Engineering at <b>Northwestern University</b>. Previously, I worked in the Machine Vision and Robotics Laboratory at <b>Northeastern University</b>, mentored by <a href="http://faculty.neu.edu.cn/songkc/en/index.htm">Prof. Kechen Song</a>, where I obtained my bachelor's degree in Intelligent Manufacturing Engineering.</p>
-                    
-                    <p>🦾 I am now an intern in the Machine Learning and Language Lab working with <a href="https://limanling.github.io/">Prof. Manling Li</a>, and I also work closely with <a href="https://huajieshao.github.io/">Prof. Huajie Shao</a>.</p>
-                    
-                    <p>My research interests lie in integrating world models into vision-language-action (VLA) systems to build more generalizable agents, and in developing safer and more interpretable VLA models.</p>
+                <div class="about-header">
+                    <h2 class="section-title">Biography</h2>
+                    <span class="section-tagline">Vision-Language-Action · Embodied AI</span>
                 </div>
-            </div>
-        </section>
 
-        <section id="education" class="section">
-            <div class="container">
-                <h2 class="section-title">Education</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <div class="edu-content-wrapper">
-                                <div class="edu-text">
-                                    <h3>PhD @ West Coast University (WCU)</h3>
-                                    <p class="timeline-date">Aug. 2023 - Now</p>
-                                    <p>Computer Science</p>
-                                    <p>Supervisor: <a href="#">Prof. Robert "Bob" Williams</a> </p>
-                                </div>
-                                <div class="school-logo">
-                                    <img src="assets/profile.jpg" alt="West Coast University" class="edu-logo">
-                                </div>
-                            </div>
+                <div class="about-card">
+                    <div class="about-meta">
+                        <div class="about-avatar">CW</div>
+                        <div>
+                            <h3 class="about-name">Chi Wan</h3>
+                            <p class="about-role">
+                                Graduate Student, Computer Engineering · Northwestern University
+                            </p>
                         </div>
                     </div>
-                    <div class="timeline-item">
-                        <div class="timeline-marker"></div>
-                        <div class="timeline-content">
-                            <div class="edu-content-wrapper">
-                                <div class="edu-text">
-                                    <h3>BEng @ Northern Technical University (NTU)</h3>
-                                    <p class="timeline-date">Sep. 2018 - Jul. 2022</p>
-                                    <p>Computer Science</p>
-                                    
-                                </div>
-                                <div class="school-logo">
-                                    <img src="assets/profile.jpg" alt="Northern Technical University" class="edu-logo">
-                                </div>
-                            </div>
-                        </div>
+
+                    <div class="about-badges">
+                        <span class="about-badge">Vision-Language-Action</span>
+                        <span class="about-badge">World Models</span>
+                        <span class="about-badge">Embodied Agents</span>
+                    </div>
+
+                    <div class="about-content">
+                        <p>👋 Hi, I'm Chi! I am currently a graduate student in Computer Engineering at <b>Northwestern University</b>. Previously, I worked in the Machine Vision and Robotics Laboratory at <b>Northeastern University</b>, mentored by <a href="http://faculty.neu.edu.cn/songkc/en/index.htm">Prof. Kechen Song</a>, where I obtained my bachelor's degree in Intelligent Manufacturing Engineering.</p>
+                        
+                        <p>🦾 I am now an intern in the Machine Learning and Language Lab working with <a href="https://limanling.github.io/">Prof. Manling Li</a>, and I also work closely with <a href="https://huajieshao.github.io/">Prof. Huajie Shao</a>.</p>
+                        
+                        <p>My research interests lie in integrating world models into vision-language-action (VLA) systems to build more generalizable agents, and in developing safer and more interpretable VLA models.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="research" class="section">
-            <div class="container">
-                <h2 class="section-title">Research Interests</h2>
-                <div class="research-areas">
-                    <div class="research-area">
-                        <i class="fas fa-sun"></i>
-                        <h3>Renewable Energy Systems</h3>
-                        <ul class="research-list">
-                            <li><strong>Solar Energy Storage Solutions:</strong> Developing next-generation materials and systems for efficient solar energy capture and long-term storage to address intermittency challenges.</li>
-                            <li><strong>Microgrid Optimization:</strong> Creating adaptive control algorithms for resilient community microgrids that balance multiple renewable energy sources and storage systems.</li>
-                        </ul>
-                    </div>
-                    <div class="research-area">
-                        <i class="fas fa-leaf"></i>
-                        <h3>Environmental Sustainability</h3>
-                        <ul class="research-list">
-                            <li><strong>Carbon Capture Technologies:</strong> Investigating novel materials and processes for direct air capture of CO₂ and its conversion into valuable products or stable storage forms.</li>
-                            <li><strong>Water Treatment Innovation:</strong> Designing membrane-based filtration systems for removing emerging contaminants and recovering valuable resources from wastewater streams.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <section id="latest-news" class="section" style="display: none;">
             <div class="container">
@@ -130,42 +86,8 @@
             <div class="container">
                 <h2 class="section-title">Publications</h2>
                 <p class="section-description"><sup>#</sup>equal contribution, *corresponding author.</p>
-                <div class="publication-filter">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="preprint">Preprints</button>
-                    <button class="filter-btn" data-filter="accepted">Accepted</button>
-                    <button class="filter-btn" data-filter="first-author">First Author</button>
-                </div>
                 <div class="publications-list">
                     <!-- Publications items will be dynamically loaded here from publications.json -->
-                </div>
-            </div>
-        </section>
-
-        <section id="honors" class="section">
-            <div class="container">
-                <h2 class="section-title">Honors & Awards</h2>
-                <div class="honors-list">
-                    
-                    <div class="honor-item">
-                        <div class="honor-year"><span class="year-highlight">2023</span></div>
-                        <div class="honor-content">
-                            <h3>Innovation Research Funding</h3>
-                            <p>West Coast State Government</p>
-                            <p>Around $150,000 to support research and PhD career.</p>
-                        </div>
-                    </div>
-                    <div class="honor-item">
-                        <div class="honor-year"><span class="year-highlight">2021</span></div>
-                        <div class="honor-content">
-                            <h3>Presidential Scholarship</h3>
-                            <p>Department of Education</p>
-                            <p>The highest honor for university students in the country.</p>
-                        </div>
-                    </div>
-                    
-                    
-                    
                 </div>
             </div>
         </section>
@@ -177,18 +99,13 @@
                     <div class="service-category">
                         <h3>Conference Technical Program Committee & Reviewer</h3>
                         <ul class="service-list">
-                            <li>ACM MM'25</li>
-                            <li>ICML'25</li>
-                            <li>ICLR'25</li>
-                            <li>AAAI'25</li>
-                            <li>CSCW'25</li>
-                            <li>ICRA'25</li>
-                            <li>ICCC'24</li>
-                            <li>IROS'24, 25</li>
+                            <li>aaai2026</li>
+                            <li>nips2025</li>
+                            <li>iclr2026</li>
                         </ul>
                     </div>
                     
-                    <div class="service-category">
+                    <!-- <div class="service-category">
                         <h3>Journal Reviewer</h3>
                         <ul class="service-list">
                             <li>ACM Computing Surveys</li>
@@ -203,16 +120,16 @@
                             <li>IEEE RA-L</li>
                             <li>Proceedings of the IEEE</li>
                         </ul>
-                    </div>
+                    </div> -->
                     
-                    <div class="service-category">
+                    <!-- <div class="service-category">
                         <h3>Teaching Assistant</h3>
                         <ul class="service-list">
                             <li>Cloud Computing, 2025 Spring</li>
                             <li>Computer Networks, 2024 Fall</li>
                             <li>Cloud Computing: Theory and Practice, 2024 Spring</li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -224,12 +141,12 @@
                     <div class="address-container">
                         <div class="address-info">
                             <h3>Office Address</h3>
-                            <p><i class="fas fa-map-marker-alt"></i> 123 University Drive, West Coast, CA 90210, USA</p>
+                            <p><i class="fas fa-map-marker-alt"></i> 633 Clark St, Evanston, IL 60208</p>
                         </div>
                     </div>
                     <div class="map-container">
                         <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.805833275243!2d-122.4113006849933!3d37.77492977975935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e2618a21553%3A0xc24a27316c149226!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1716977566159!5m2!1sen!2s"
+                            src="https://www.google.com/maps?q=633+Clark+St,+Evanston,+IL+60208&output=embed"
                             width="100%" 
                             height="400" 
                             style="border:0;" 
@@ -241,9 +158,9 @@
                 </div>
             </div>
             <br><br><br><br>
-                <div style="width: 15%; height: auto; margin: auto;">
-                    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Frxy0rfEZDtQqjGbJ_w8LEF-2KVersYTn0A3-GN6BRE"></script>
-                </div>
+            <div style="width: 15%; height: auto; margin: auto;">
+                <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=cNPdH7h4w8uqa75sbF8wMl0bmeUHf-HeBaRjDyrfXU0&cl=ffffff&w=a"></script>
+            </div>
         </section>
     </main>
 

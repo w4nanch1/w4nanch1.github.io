@@ -8,37 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set up MutationObserver to watch for dynamically added links
     setupLinkObserver();
 
-    // Publication filters - including "First Author" for publications where user is first author or has equal contribution
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const publications = document.querySelectorAll('.publication');
-    
     // Load publications data from JSON file
     loadPublications();
-    
-    filterBtns.forEach(btn => {
-        btn.addEventListener('click', function() {
-            // Remove active class from all buttons
-            filterBtns.forEach(b => b.classList.remove('active'));
-            
-            // Add active class to clicked button
-            this.classList.add('active');
-            
-            // Get filter value
-            const filterValue = this.getAttribute('data-filter');
-            
-            // Filter publications
-            const pubElements = document.querySelectorAll('.publication');
-            pubElements.forEach(pub => {
-                if (filterValue === 'all') {
-                    pub.style.display = 'flex';
-                } else if (pub.classList.contains(filterValue)) {
-                    pub.style.display = 'flex';
-                } else {
-                    pub.style.display = 'none';
-                }
-            });
-        });
-    });
     
     // Smooth scrolling for navigation links
     const navLinks = document.querySelectorAll('.nav-links a');
