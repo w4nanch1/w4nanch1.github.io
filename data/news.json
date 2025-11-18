@@ -1,68 +1,18 @@
 [
-
   {
-    "date": "Jan. 2025",
-    "title": "Paper Accepted by ICES'25",
-    "content": "One paper was accepted by The 2025 IEEE International Conference on Energy & Sustainability (ICES'25)!",
+    "date": "Nov. 2025",
+    "title": "WorldAgen: Unified State-Action Prediction with Test-Time World Model Training",
+    "content": "Chi Wan*, Kangrui Wang*, Yuan Si, Pingyue Zhang, Huang Huang, Manling Li \nAccepted by AAAI'2026 <img src=\"publication/worldagen/worldagen.png\" alt=\"Conference\" style=\"max-width: 100%; border-radius: 4px; margin: 10px 0;\">",
     "links": [
       {
-        "text": "PDF",
-        "url": "#"
-      }
-    ]
-  },
-
-  {
-    "date": "Dec. 2024",
-    "title": "Paper Accepted by JSD",
-    "content": "One paper was accepted by Journal of Sustainable Development (JSD)!",
-    "links": [
-      {
-        "text": "PDF",
+        "text": "Arxiv",
         "url": "#"
       },
       {
-        "text": "Code",
+        "text": "website",
         "url": "#"
       }
     ]
-  },
-
-  {
-    "date": "Nov. 2024",
-    "title": "Paper Accepted by IEEE TEE",
-    "content": "One paper was accepted by IEEE Transactions on Environmental Engineering (TEE), congratulations 🎉!!!",
-    "links": [
-      {
-        "text": "PDF",
-        "url": "#"
-      }
-    ]
-  },
-  {
-    "date": "Nov. 2024",
-    "title": "EPA Research Grant Award",
-    "content": "Alex was awarded the EPA Research Grant to support his work on advanced water filtration technologies."
-  },
-  {
-    "date": "Aug. 2024",
-    "title": "Paper Accepted by IEEE TAE",
-    "content": "One paper was accepted by IEEE Transactions on Agricultural Engineering (TAE)!"
-  },
-  
-  {
-    "date": "Sep. 2023",
-    "title": "University Research Tuition Grant",
-    "content": "Alex was awarded the University Research Tuition Grant, nearly $35,000."
-  },
-  {
-    "date": "Jun. 2022",
-    "title": "Graduation from NTU",
-    "content": "Alex graduated from Northern Technical University with honors in Environmental Engineering. Thanks to all the professors, senior students and friends who helped him in the past four years."
-  },
-  {
-    "date": "Dec. 2021",
-    "title": "Presidential Scholarship Award",
-    "content": "Alex was awarded the Presidential Scholarship for his top 1% academic performance in the Environmental Engineering department, which is the highest honor for university students in the country."
   }
+
 ] 

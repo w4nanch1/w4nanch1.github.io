@@ -7,48 +7,18 @@
       "url": "mailto:chiwan2026@u.northwestern.edu",
       "icon": "<i class=\"fas fa-envelope\"></i>"
     },
-    // {
-    //   "type": "wechat",
-    //   "url": "assets/wechat.jpg",
-    //   "icon": "<i class=\"fab fa-weixin\"></i>",
-    //   "target": "_blank"
-    // },
-    // {
-    //   "type": "googleScholar",
-    //   "url": "#",
-    //   "icon": "<i class=\"fas fa-graduation-cap\"></i>",
-    //   "target": "_blank"
-    // },
-    // {
-    //   "type": "linkedin",
-    //   "url": "#",
-    //   "icon": "<i class=\"fab fa-linkedin\"></i>",
-    //   "target": "_blank"
-    // },
     {
       "type": "github",
-      "url": "#",
+      "url": "https://github.com/w4nanch1?tab=repositories",
       "icon": "<i class=\"fab fa-github\"></i>",
       "target": "_blank"
+    },
+    {
+      "type": "twitter",
+      "url": "https://x.com/w4nanch1",
+      "icon": "<i class=\"fab fa-x-twitter\"></i>",
+      "target": "_blank"
     }
-    // {
-    //   "type": "instagram",
-    //   "url": "#",
-    //   "icon": "<i class=\"fab fa-instagram\"></i>",
-    //   "target": "_blank"
-    // },
-    // {
-    //   "type": "dblp",
-    //   "url": "#",
-    //   "icon": "<img src=\"assets/dblp.svg\" alt=\"DBLP\" class=\"icon-svg\">",
-    //   "target": "_blank"
-    // },
-    // {
-    //   "type": "researchgate",
-    //   "url": "#",
-    //   "icon": "<i class=\"fab fa-researchgate\"></i>",
-    //   "target": "_blank"
-    // }
   ],
   "profileImage": "assets/profile.png"
 } 
