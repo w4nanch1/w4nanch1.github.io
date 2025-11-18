@@ -9,12 +9,12 @@
     "image": "publication/worldagen/worldagen.png",
     "tags": [
       {
-        "text": "Arxiv",
+        "text": "Paper",
         "class": "code-tag",
         "link": "#"
       },
       {
-        "text": "website",
+        "text": "Website",
         "class": "code-tag",
         "link": "#"
       }
@@ -25,17 +25,17 @@
     "title": "VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents",
     "authors": "Kangrui Wang*, Pingyue Zhang*, Zihan Wang*, Yaning Gao*, Linjie Li*, Qineng Wang, Hanyang Chen, <strong><u>Chi Wan</u></strong>, Yiping Lu, Zhengyuan Yang, Lijuan Wang, Ranjay Krishna, Jiajun Wu, Li Fei-Fei, Yejin Choi, Manling Li",
     "type": "accepted",
-    "isFirstAuthor": false,
+    "isFirstAuthor": true,
     "venue": "NeurIPS'2025",
     "image": "publication/vagen/vagen.png",
     "tags": [
       {
-        "text": "Arxiv",
+        "text": "Paper",
         "class": "code-tag",
         "link": "https://vagen-ai.github.io/vagen_paper.pdf"
       },
       {
-        "text": "website",
+        "text": "Website",
         "class": "code-tag",
         "link": "https://vagen-ai.github.io/"
       }
