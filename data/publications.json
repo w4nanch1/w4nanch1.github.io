@@ -50,12 +50,12 @@
     "image": "publication/neu_graduation_thesis/lidar2.png",
     "tags": [
       {
-        "text": "paper",
+        "text": "Paper",
         "class": "code-tag",
         "link": "https://github.com/w4nanch1/neu-graduation-thesis/blob/main/thesis/paper.pdf"
       },
       {
-        "text": "website",
+        "text": "Website",
         "class": "code-tag",
         "link": "https://github.com/w4nanch1/neu-graduation-thesis"
       }
@@ -71,7 +71,7 @@
     "image": "publication/adv_sod/adv_sod.png",
     "tags": [
       {
-        "text": "paper",
+        "text": "Paper",
         "class": "code-tag",
         "link": "https://ieeexplore.ieee.org/document/10426716"
       },
@@ -92,12 +92,12 @@
     "image": "publication/tsstnet/tsstnet.png",
     "tags": [
       {
-        "text": "paper",
+        "text": "Paper",
         "class": "code-tag",
         "link": "https://www.mdpi.com/2079-6412/12/11/1730"
       },
       {
-        "text": "website",
+        "text": "Website",
         "class": "code-tag",
         "link": "https://github.com/VDT-2048/TSSTNet"
       }
