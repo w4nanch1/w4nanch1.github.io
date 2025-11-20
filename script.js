@@ -202,6 +202,11 @@ function loadPublications() {
                     img.src = imagePath;
                     img.alt = pub.title || 'Publication image';
                     img.className = 'pub-image';
+                    img.style.cursor = 'pointer';
+                    // Add click event to open image in modal
+                    img.addEventListener('click', function(e) {
+                        openImageModal(imagePath, pub.title || 'Publication image');
+                    });
                     imageElement.appendChild(img);
                     pubElement.appendChild(imageElement);
                 } else {
@@ -388,6 +393,74 @@ function makeAllLinksOpenInNewTab() {
             link.setAttribute('target', '_blank');
         }
     });
+}
+
+// Function to open image in modal with smooth animation
+function openImageModal(imageSrc, imageAlt) {
+    // Create modal overlay
+    const modal = document.createElement('div');
+    modal.className = 'image-modal';
+    modal.id = 'image-modal';
+    
+    // Create modal content
+    const modalContent = document.createElement('div');
+    modalContent.className = 'image-modal-content';
+    
+    // Create close button
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'image-modal-close';
+    closeBtn.innerHTML = '<i class="fas fa-times"></i>';
+    closeBtn.setAttribute('aria-label', 'Close');
+    
+    // Create image element
+    const modalImage = document.createElement('img');
+    modalImage.src = imageSrc;
+    modalImage.alt = imageAlt;
+    modalImage.className = 'image-modal-img';
+    
+    // Append elements
+    modalContent.appendChild(closeBtn);
+    modalContent.appendChild(modalImage);
+    modal.appendChild(modalContent);
+    
+    // Add to body
+    document.body.appendChild(modal);
+    
+    // Prevent body scroll when modal is open
+    document.body.style.overflow = 'hidden';
+    
+    // Trigger animation by adding active class after a small delay
+    setTimeout(() => {
+        modal.classList.add('active');
+    }, 10);
+    
+    // Close modal functions
+    const closeModal = () => {
+        modal.classList.remove('active');
+        setTimeout(() => {
+            document.body.removeChild(modal);
+            document.body.style.overflow = '';
+        }, 300); // Match CSS transition duration
+    };
+    
+    // Close on button click
+    closeBtn.addEventListener('click', closeModal);
+    
+    // Close on overlay click
+    modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+    
+    // Close on ESC key
+    const handleEsc = (e) => {
+        if (e.key === 'Escape' || e.keyCode === 27) {
+            closeModal();
+            document.removeEventListener('keydown', handleEsc);
+        }
+    };
+    document.addEventListener('keydown', handleEsc);
 }
 
 // Function to set up a MutationObserver to watch for new links
