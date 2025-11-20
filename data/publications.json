@@ -43,6 +43,37 @@
   },
   {
     "number": 3,
+    "title": "Design and Development of a High-Resolution Panoramic LiDAR Scanning Device",
+    "authors": "Chi Wan, advisor: <a href='https://www.linkedin.com/in/hongtai-cheng-27141146/?originalSubdomain=cn'>[Hongtai Cheng]</a>",
+    "isFirstAuthor": true,
+    "venue": "Northeastern University Graduation Thesis",
+    "image": "publication/neu_graduation_thesis/lidar.png",
+    "tags": [
+      {
+        "text": "paper",
+        "class": "code-tag",
+        "link": "https://github.com/w4nanch1/neu-graduation-thesis"
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Dangerous Art Paintings: Artistic Adversarial Attacks on Salient Object Detection",
+    "authors": "Qian Chen*, <strong><u>Chi Wan</u></strong>*, Haichao Zhao and Tianrun Yang",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "venue": "International Conference on Computer Engineering and Intelligent Control",
+    "image": "publication/adv_sod/adv_sod.png",
+    "tags": [
+      {
+        "text": "paper",
+        "class": "code-tag",
+        "link": "https://ieeexplore.ieee.org/document/10426716"
+      }
+    ]
+  },
+  {
+    "number": 4,
     "title": "TSSTNet: A Two-Stream Swin Transformer Network for Salient Object Detection of No-Service Rail Surface Defects",
     "authors": "<strong><u>Chi Wan</u></strong>, Shuai Ma and Kechen Song",
     "type": "accepted",
