@@ -500,6 +500,30 @@ nav {
     border: 1px solid rgba(148, 163, 184, 0.4); /* slate-ish */
     background: radial-gradient(circle at top left, rgba(99, 102, 241, 0.08), transparent 55%);
     box-shadow: 0 18px 45px rgba(15, 23, 42, 0.18);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.about-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--primary-color), #06b6d4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 25px 55px rgba(15, 23, 42, 0.25);
+    border-color: rgba(0, 102, 204, 0.3);
+}
+
+.about-card:hover::before {
+    opacity: 1;
 }
 
 /* 上面名字 + 头像 */
@@ -521,11 +545,20 @@ nav {
     font-size: 0.95rem;
     background: linear-gradient(135deg, #4f46e5, #06b6d4);
     color: #fff;
+    flex-shrink: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.about-card:hover .about-avatar {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 6px 18px rgba(79, 70, 229, 0.4);
 }
 
 .about-name {
     margin: 0;
     font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .about-role {
@@ -548,6 +581,14 @@ nav {
     border-radius: 999px;
     border: 1px solid rgba(148, 163, 184, 0.5);
     background: rgba(148, 163, 184, 0.12);
+    transition: all 0.2s ease;
+}
+
+.about-badge:hover {
+    background: rgba(0, 102, 204, 0.15);
+    border-color: rgba(0, 102, 204, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 6px rgba(0, 102, 204, 0.2);
 }
 
 /* 正文 */
@@ -558,6 +599,114 @@ nav {
 .about-content p {
     margin-bottom: 0.75rem;
     line-height: 1.7;
+}
+
+.about-content a {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.about-content a:hover {
+    color: #0052a3;
+    border-bottom-color: #0052a3;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    #about {
+        padding: 3rem 0;
+    }
+    
+    .about-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .section-tagline {
+        font-size: 0.75rem;
+    }
+    
+    .about-card {
+        padding: 1.5rem 1.5rem;
+        border-radius: 12px;
+    }
+    
+    .about-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .about-avatar {
+        width: 56px;
+        height: 56px;
+        font-size: 1.1rem;
+        align-self: center;
+    }
+    
+    .about-name {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .about-role {
+        font-size: 0.95rem;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .about-badges {
+        justify-content: center;
+        gap: 0.4rem;
+    }
+    
+    .about-badge {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.6rem;
+    }
+    
+    .about-content {
+        font-size: 1rem;
+    }
+    
+    .about-content p {
+        margin-bottom: 1rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-card {
+        padding: 1.2rem 1.2rem;
+    }
+    
+    .about-avatar {
+        width: 50px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    
+    .about-name {
+        font-size: 1.1rem;
+    }
+    
+    .about-role {
+        font-size: 0.9rem;
+    }
+    
+    .about-content {
+        font-size: 0.95rem;
+    }
+    
+    .about-badge {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.5rem;
+    }
 }
 
 /* News Section */
