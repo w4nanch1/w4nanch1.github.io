@@ -44,13 +44,18 @@
   {
     "number": 3,
     "title": "Design and Development of a High-Resolution Panoramic LiDAR Scanning Device",
-    "authors": "Chi Wan, advisor: <a href='https://www.linkedin.com/in/hongtai-cheng-27141146/?originalSubdomain=cn'>[Hongtai Cheng]</a>",
+    "authors": "Chi Wan",
     "isFirstAuthor": true,
     "venue": "Northeastern University Graduation Thesis",
-    "image": "publication/neu_graduation_thesis/lidar.png",
+    "image": "publication/neu_graduation_thesis/lidar2.png",
     "tags": [
       {
         "text": "paper",
+        "class": "code-tag",
+        "link": "https://github.com/w4nanch1/neu-graduation-thesis/blob/main/thesis/paper.pdf"
+      },
+      {
+        "text": "website",
         "class": "code-tag",
         "link": "https://github.com/w4nanch1/neu-graduation-thesis"
       }
@@ -69,11 +74,16 @@
         "text": "paper",
         "class": "code-tag",
         "link": "https://ieeexplore.ieee.org/document/10426716"
+      },
+      {
+        "text": "Website",
+        "class": "code-tag",
+        "link": "#"
       }
     ]
   },
   {
-    "number": 4,
+    "number": 5,
     "title": "TSSTNet: A Two-Stream Swin Transformer Network for Salient Object Detection of No-Service Rail Surface Defects",
     "authors": "<strong><u>Chi Wan</u></strong>, Shuai Ma and Kechen Song",
     "type": "accepted",
@@ -85,6 +95,11 @@
         "text": "paper",
         "class": "code-tag",
         "link": "https://www.mdpi.com/2079-6412/12/11/1730"
+      },
+      {
+        "text": "website",
+        "class": "code-tag",
+        "link": "https://github.com/VDT-2048/TSSTNet"
       }
     ]
   }
