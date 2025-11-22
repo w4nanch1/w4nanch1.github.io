@@ -28,6 +28,7 @@
     "isFirstAuthor": true,
     "venue": "NeurIPS'25",
     "image": "publication/vagen/vagen.png",
+    "githubStars": "300+",
     "tags": [
       {
         "text": "Paper",
@@ -90,6 +91,7 @@
     "isFirstAuthor": true,
     "venue": "Coatings",
     "image": "publication/tsstnet/tsstnet.png",
+    "citation": 16,
     "tags": [
       {
         "text": "Paper",

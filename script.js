@@ -240,6 +240,28 @@ function loadPublications() {
                     contentElement.appendChild(venueElement);
                 }
                 
+                // Add citation and GitHub stars if they exist
+                const metricsContainer = document.createElement('div');
+                metricsContainer.className = 'pub-metrics';
+                
+                if (pub.citation !== undefined && pub.citation !== null) {
+                    const citationElement = document.createElement('span');
+                    citationElement.className = 'pub-metric citation-metric';
+                    citationElement.innerHTML = '<i class="fas fa-quote-right"></i> Citation: ' + pub.citation;
+                    metricsContainer.appendChild(citationElement);
+                }
+                
+                if (pub.githubStars) {
+                    const githubStarsElement = document.createElement('span');
+                    githubStarsElement.className = 'pub-metric github-metric';
+                    githubStarsElement.innerHTML = '<i class="fab fa-github"></i> GitHub⭐: ' + pub.githubStars;
+                    metricsContainer.appendChild(githubStarsElement);
+                }
+                
+                if (metricsContainer.children.length > 0) {
+                    contentElement.appendChild(metricsContainer);
+                }
+                
                 // Add tags
                 const tagsContainer = document.createElement('div');
                 tagsContainer.className = 'pub-tags';
