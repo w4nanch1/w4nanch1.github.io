@@ -18,6 +18,12 @@
       "url": "https://x.com/w4nanch1",
       "icon": "<i class=\"fab fa-twitter\"></i>",
       "target": "_blank"
+    },
+    {
+      "type": "linkedin",
+      "url": "https://www.linkedin.com/in/chi-wan-33b4032bb/",
+      "icon": "<i class=\"fab fa-linkedin\"></i>",
+      "target": "_blank"
     }
   ],
   "profileImage": "assets/profile.png"
