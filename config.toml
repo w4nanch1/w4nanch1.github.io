@@ -48,8 +48,6 @@ copyright = "&copy; 2026 Chi Wan"
   url = "/#education"
   weight = 4
 
-
-
 [params.social]
   [params.social.email]
     name = "Email"
