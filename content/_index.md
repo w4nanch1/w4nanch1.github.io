@@ -9,9 +9,9 @@ hide_title: true
     <p class="role">AI Researcher</p>
     <p>👋👋Hi, I'm Chi! I am currently working full-time with <a href="https://yimingli-page.github.io/">Prof. Yiming Li</a> on some crazy and interesting work. I graduated from <strong>Northwestern University</strong> with M.S. in Computer Engineering, supervised by <a href="https://limanling.github.io/">Prof. Manling Li</a>, and collaborated with <a href="https://huajieshao.github.io/">Prof. Huajie Shao</a>. Previously, I worked in the Machine Vision and Robotics Laboratory at <strong>Northeastern University</strong>, mentored by <a href="http://faculty.neu.edu.cn/songkc/en/index.htm">Prof. Kechen Song</a>, where I obtained my bachelor's degree in Intelligent Manufacturing Engineering.</p>
     <div class="topic-pills">
-        <span>Data-Centric Embodied AI</span>
-        <span>World Models</span>
-        <span>Embodied Agents</span>
+        <span>📊 Data-Driven Large Scale Training</span>
+        <span>🌍 World Models with Physical Laws</span>
+        <span>🤖 Embodied AI</span>
     </div>
   </div>
   <figure class="home-portrait">
@@ -86,7 +86,7 @@ hide_title: true
       <div>
         <h3>VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents</h3>
         <p>Kangrui Wang*, Pingyue Zhang*, Zihan Wang*, Yaning Gao*, Linjie Li*, Qineng Wang, Hanyang Chen, <strong><u>Chi Wan</u></strong>, Yiping Lu, Zhengyuan Yang, Lijuan Wang, Ranjay Krishna, Jiajun Wu, Li Fei-Fei, Yejin Choi, Manling Li</p>
-        <p class="venue">NeurIPS 2025 · 300+ GitHub stars</p>
+        <p class="venue">NeurIPS 2025 · 400+ GitHub stars🌟</p>
         <p class="inline-links"><a href="https://vagen-ai.github.io/vagen_paper.pdf">Paper</a><a href="https://vagen-ai.github.io/">Website</a></p>
       </div>
     </article>
@@ -96,7 +96,7 @@ hide_title: true
         <h3>Design and Development of a High-Resolution Panoramic LiDAR Scanning Device</h3>
         <p><strong><u>Chi Wan</u></strong></p>
         <p class="venue">Northeastern University Graduation Thesis</p>
-        <p class="inline-links"><a href="https://github.com/w4nanch1/neu-graduation-thesis/blob/main/thesis/paper.pdf">Paper</a><a href="https://github.com/w4nanch1/neu-graduation-thesis">Website</a></p>
+        <p class="inline-links"><a href="https://github.com/w4nanch1/neu-graduation-thesis">Website</a></p>
       </div>
     </article>
     <article class="publication">
