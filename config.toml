@@ -48,15 +48,7 @@ copyright = "&copy; 2026 Chi Wan"
   url = "/#education"
   weight = 4
 
-[[menu.main]]
-  name = "Contact"
-  url = "/#contact"
-  weight = 5
 
-[[menu.main]]
-  name = "CV"
-  url = "/assets/Chi_CV.pdf"
-  weight = 6
 
 [params.social]
   [params.social.email]

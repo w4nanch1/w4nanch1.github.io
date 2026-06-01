@@ -5,10 +5,11 @@ hide_title: true
 
 <section id="biography" class="home-hero">
   <div class="home-hero-copy">
-    <p class="eyebrow">Embodied Agent</p>
     <h1>Chi Wan <span>万驰</span></h1>
-    <p class="role">Computer Engineering · Northwestern University · <a href="https://www.mll.lab.northwestern.edu/">Machine Learning and Language Lab</a></p>
+    <p class="role">AI Researcher</a></p>
     <p>Hi, I'm Chi! I am currently working full-time with <a href="https://yimingli-page.github.io/">Prof. Yiming Li</a> on some crazy and interesting work. I graduated from <strong>Northwestern University</strong> with M.S. in Computer Engineering, supervised by <a href="https://limanling.github.io/">Prof. Manling Li</a>, and collaborated with <a href="https://huajieshao.github.io/">Prof. Huajie Shao</a>. Previously, I worked in the Machine Vision and Robotics Laboratory at <strong>Northeastern University</strong>, mentored by <a href="http://faculty.neu.edu.cn/songkc/en/index.htm">Prof. Kechen Song</a>, where I obtained my bachelor's degree in Intelligent Manufacturing Engineering.</p>
+
+
     <div class="topic-pills">
       <span>Data-Centric Embodied AI</span>
       <span>World Models</span>
@@ -144,11 +145,11 @@ hide_title: true
   </div>
 </section>
 
-<section id="contact" class="section-block">
+<!-- <section id="contact" class="section-block">
   <h2>Contact</h2>
   <div class="contact-grid">
     <p><strong>Email:</strong> <a href="mailto:chiwan2026@u.northwestern.edu">chiwan2026@u.northwestern.edu</a></p>
     <p><strong>Address:</strong> <a href="https://www.google.com/maps?q=633+Clark+St,+Evanston,+IL+60208">633 Clark St, Evanston, IL 60208</a></p>
     <p><strong>CV:</strong> <a href="/assets/Chi_CV.pdf">Download PDF</a></p>
   </div>
-</section>
+</section> -->
