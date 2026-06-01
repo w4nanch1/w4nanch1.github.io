@@ -129,8 +129,19 @@ header .title {
   gap: 1rem;
 }
 
+#news .news-list {
+  gap: 0.5rem;
+  max-height: 15.5rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0.65rem;
+  border: 1px solid rgba(34, 34, 34, 0.06);
+  border-radius: 14px;
+  background: transparent;
+  scrollbar-gutter: stable;
+}
+
 .focus-item,
-.news-list article,
 .timeline-list article,
 .compact-list,
 .contact-grid {
@@ -138,6 +149,30 @@ header .title {
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.42);
   padding: 1rem;
+}
+
+#news .news-list article {
+  display: grid;
+  grid-template-columns: 1.5rem minmax(0, 1fr);
+  gap: 0.5rem;
+  align-items: center;
+  min-height: 2.4rem;
+  border: 1px solid rgba(34, 34, 34, 0.06);
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 0.55rem 0.75rem;
+}
+
+.news-heading-icon {
+  font-size: 1.1rem;
+}
+
+.news-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .focus-item {
@@ -165,10 +200,25 @@ header .title {
   margin: 0.25rem 0 0;
 }
 
+#news .news-list p {
+  margin: 0;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
 .news-list time,
 .venue {
   color: rgba(34, 34, 34, 0.62);
   font-size: 0.86rem;
+  font-weight: 700;
+}
+
+#news .news-list time {
+  color: #222222;
+  font-size: inherit;
+}
+
+#news .news-list a {
   font-weight: 700;
 }
 
@@ -194,8 +244,18 @@ header .title {
   border: 1px solid rgba(34, 34, 34, 0.12);
 }
 
+.publication h3 {
+  font-size: 1.12rem;
+  line-height: 1.3;
+}
+
 .publication p {
   margin: 0.35rem 0;
+}
+
+.publication h3 + p {
+  font-size: 0.92rem;
+  line-height: 1.38;
 }
 
 .contact-grid {

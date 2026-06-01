@@ -47,22 +47,23 @@ hide_title: true
 </section>
 
 <section id="news" class="section-block">
-  <h2>News</h2>
+  <h2>News <span class="news-heading-icon" aria-hidden="true">📣</span></h2>
   <div class="news-list">
-    <article>
-      <time>Nov. 2025</time>
-      <p><strong>WorldAgen: Unified State-Action Prediction with Test-Time World Model Training</strong> accepted to AAAI 2026.</p>
-      <p class="inline-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38925">Paper</a><a href="https://worldagen.github.io">Website</a></p>
+    <article class="news-item">
+      <span class="news-icon" aria-hidden="true">🎓</span>
+      <p><time datetime="2026-04">Apr. 2026</time>: I graduated from Northwestern University and started working with <a href="https://yimingli-page.github.io/">Prof. Yiming Li</a>.</p>
     </article>
-    <article>
-      <time>Apr. 2025</time>
-      <p><strong>VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents</strong> accepted to NeurIPS 2025.</p>
-      <p class="inline-links"><a href="https://vagen-ai.github.io/vagen_paper.pdf">Paper</a><a href="https://vagen-ai.github.io/">Website</a></p>
+    <article class="news-item">
+      <span class="news-icon" aria-hidden="true">🚀</span>
+      <p><time datetime="2025-11">Nov. 2025</time>: WorldAgen: Unified State-Action Prediction with Test-Time World Model Training accepted to AAAI 2026.</p>
     </article>
-    <article>
-      <time>Dec. 2022</time>
-      <p><strong>TSSTNet: A Two-Stream Swin Transformer Network for Salient Object Detection of No-Service Rail Surface Defects</strong> published in Coatings.</p>
-      <p class="inline-links"><a href="https://www.mdpi.com/2079-6412/12/11/1730">Paper</a></p>
+    <article class="news-item">
+      <span class="news-icon" aria-hidden="true">🎉</span>
+      <p><time datetime="2025-04">Apr. 2025</time>: VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents accepted to NeurIPS 2025.</p>
+    </article>
+    <article class="news-item">
+      <span class="news-icon" aria-hidden="true">🎓</span>
+      <p><time datetime="2024-12">Sep. 2024</time>: I joined the <a href="https://www.mll.lab.northwestern.edu">MLL Lab</a> at Northwestern University, supervised by <a href="https://limanling.github.io/">Prof. Manling Li</a>.</p>
     </article>
   </div>
 </section>
@@ -96,15 +97,6 @@ hide_title: true
         <p><strong><u>Chi Wan</u></strong></p>
         <p class="venue">Northeastern University Graduation Thesis</p>
         <p class="inline-links"><a href="https://github.com/w4nanch1/neu-graduation-thesis/blob/main/thesis/paper.pdf">Paper</a><a href="https://github.com/w4nanch1/neu-graduation-thesis">Website</a></p>
-      </div>
-    </article>
-    <article class="publication">
-      <img src="/publication/adv_sod/adv_sod.png" alt="Adversarial salient object detection preview">
-      <div>
-        <h3>Dangerous Art Paintings: Artistic Adversarial Attacks on Salient Object Detection</h3>
-        <p>Qian Chen*, <strong><u>Chi Wan</u></strong>*, Haichao Zhao and Tianrun Yang</p>
-        <p class="venue">International Conference on Computer Engineering and Intelligent Control</p>
-        <p class="inline-links"><a href="https://ieeexplore.ieee.org/document/10426716">Paper</a></p>
       </div>
     </article>
     <article class="publication">
