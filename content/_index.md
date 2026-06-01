@@ -7,7 +7,12 @@ hide_title: true
   <div class="home-hero-copy">
     <h1>Chi Wan <span>万驰</span></h1>
     <p class="role">AI Researcher</p>
-    <p>Hi, I'm Chi! I am currently working full-time with <a href="https://yimingli-page.github.io/">Prof. Yiming Li</a> on some crazy and interesting work. I graduated from <strong>Northwestern University</strong> with M.S. in Computer Engineering, supervised by <a href="https://limanling.github.io/">Prof. Manling Li</a>, and collaborated with <a href="https://huajieshao.github.io/">Prof. Huajie Shao</a>. Previously, I worked in the Machine Vision and Robotics Laboratory at <strong>Northeastern University</strong>, mentored by <a href="http://faculty.neu.edu.cn/songkc/en/index.htm">Prof. Kechen Song</a>, where I obtained my bachelor's degree in Intelligent Manufacturing Engineering.</p>
+    <p>👋👋Hi, I'm Chi! I am currently working full-time with <a href="https://yimingli-page.github.io/">Prof. Yiming Li</a> on some crazy and interesting work. I graduated from <strong>Northwestern University</strong> with M.S. in Computer Engineering, supervised by <a href="https://limanling.github.io/">Prof. Manling Li</a>, and collaborated with <a href="https://huajieshao.github.io/">Prof. Huajie Shao</a>. Previously, I worked in the Machine Vision and Robotics Laboratory at <strong>Northeastern University</strong>, mentored by <a href="http://faculty.neu.edu.cn/songkc/en/index.htm">Prof. Kechen Song</a>, where I obtained my bachelor's degree in Intelligent Manufacturing Engineering.</p>
+    <div class="topic-pills">
+        <span>Data-Centric Embodied AI</span>
+        <span>World Models</span>
+        <span>Embodied Agents</span>
+    </div>
   </div>
   <figure class="home-portrait">
     <img src="/assets/profile.png" alt="Chi Wan">
@@ -21,21 +26,21 @@ hide_title: true
       <div class="focus-icon"><i class="fas fa-database"></i></div>
       <div>
         <h3>Data Collection &amp; Curation</h3>
-        <p>I believe clean, high-quality data will become a core competitive advantage for embodied agents.</p>
+        <p>I believe high-quality, carefully curated data is becoming a foundational advantage for embodied agents.</p>
       </div>
     </article>
     <article class="focus-item">
       <div class="focus-icon"><i class="fas fa-globe"></i></div>
       <div>
         <h3>Physics-Grounded World Models</h3>
-        <p>I aim to build world models that learn from physical-world interaction and respect the laws of physics.</p>
+        <p>I am interested in world models that learn through physical-world interaction and reflect the constraints of real-world physics.</p>
       </div>
     </article>
     <article class="focus-item">
       <div class="focus-icon"><i class="fas fa-robot"></i></div>
       <div>
         <h3>Embodied Agents</h3>
-        <p>I believe robotics needs agents capable of self-evolution and lifelong learning.</p>
+        <p>I aim to develop embodied agents capable of continuous adaptation, self-improvement, and lifelong learning.</p>
       </div>
     </article>
   </div>
