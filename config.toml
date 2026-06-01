@@ -1,0 +1,82 @@
+baseURL = "https://w4nanch1.github.io/"
+locale = "en-us"
+title = "Chi (Alan) Wan"
+theme = "barks"
+copyright = "&copy; 2026 Chi Wan"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params.head]
+  author = "Chi Wan"
+  custom_css = "/css/custom.css"
+  description = "Chi Wan's academic homepage. Research on embodied agents, world models, and data-centric robotics."
+  keywords = ["Chi Wan", "Embodied Agents", "World Models", "Robotics", "Vision-Language-Action Models"]
+
+[params.navigation]
+  show_navigation = true
+
+[params.footer]
+  show_footer = true
+
+[params.typography]
+  title_font = "Bree Serif"
+  body_font = "Source Sans Pro"
+
+[params.colors]
+  theme_color = "#1f2937"
+  background_color = "#fcfbf9"
+  text_color = "#222222"
+  link_color = "#0066cc"
+
+[[menu.main]]
+  name = "Bio"
+  url = "/#biography"
+  weight = 1
+
+[[menu.main]]
+  name = "News"
+  url = "/#news"
+  weight = 2
+
+[[menu.main]]
+  name = "Publications"
+  url = "/#publications"
+  weight = 3
+
+[[menu.main]]
+  name = "Education"
+  url = "/#education"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 5
+
+[[menu.main]]
+  name = "CV"
+  url = "/assets/Chi_CV.pdf"
+  weight = 6
+
+[params.social]
+  [params.social.email]
+    name = "Email"
+    class = "fas fa-envelope"
+    url = "mailto:chiwan2026@u.northwestern.edu"
+    weight = 1
+  [params.social.github]
+    name = "GitHub"
+    class = "fab fa-github"
+    url = "https://github.com/w4nanch1?tab=repositories"
+    weight = 2
+  [params.social.twitter]
+    name = "X / Twitter"
+    class = "fab fa-twitter"
+    url = "https://x.com/w4nanch1"
+    weight = 3
+  [params.social.linkedin]
+    name = "LinkedIn"
+    class = "fab fa-linkedin"
+    url = "https://www.linkedin.com/in/chi-wan-33b4032bb/"
+    weight = 4

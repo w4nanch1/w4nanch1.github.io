@@ -11,6 +11,9 @@ vendor/
 # Build outputs
 dist/
 build/
+public/
+resources/_gen/
+.hugo_build.lock
 
 # Logs
 *.log
