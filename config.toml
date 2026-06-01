@@ -24,7 +24,7 @@ copyright = "&copy; 2026 Chi Wan"
 
 [params.colors]
   theme_color = "#1f2937"
-  background_color = "#fcfbf9"
+  background_color = "#eee6d9"
   text_color = "#222222"
   link_color = "#0066cc"
 
