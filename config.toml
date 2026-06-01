@@ -1,7 +1,6 @@
 baseURL = "https://w4nanch1.github.io/"
 locale = "en-us"
 title = "Chi (Alan) Wan"
-theme = "barks"
 copyright = "&copy; 2026 Chi Wan"
 
 [markup.goldmark.renderer]

@@ -1,8 +1,8 @@
 # Chi Wan Homepage
 
 This repository contains Chi Wan's personal academic homepage, built with
-[Hugo](https://gohugo.io/) and the [barks](https://github.com/timothygebhard/barks)
-theme.
+[Hugo](https://gohugo.io/) and a root-level copy of the
+[barks](https://github.com/timothygebhard/barks) theme.
 
 ## Local Preview
 
@@ -22,7 +22,7 @@ http://localhost:1313/
 - Custom styles: `static/css/custom.css`
 - Static assets: `static/assets/`
 - Publication images: `static/publication/`
-- Theme: `themes/barks/`
+- barks layouts and SCSS: `layouts/` and `assets/`
 
 ## Build
 
